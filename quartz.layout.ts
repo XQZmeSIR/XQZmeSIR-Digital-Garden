@@ -33,9 +33,8 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
-    Component.RecentNotes({ title: "Recent notes", limit: 4, showTags: false })
+    Component.RecentNotes({ title: "Recent notes", limit: 4, showTags: false }),
   ],
-  footer: Component.RecentNotes({ title: "Recent notes", limit: 4, showTags: false }),
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
