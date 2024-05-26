@@ -9,10 +9,12 @@
     margin-top: 1rem;
     padding-left: 0;
     font-size: 0.8rem;
+
     & > li {
       margin: 1rem 0;
       .section > .desc > h3 > a {
         background-color: transparent;
+        font-size: 0.8rem;
       }
 
       .section > .meta {
