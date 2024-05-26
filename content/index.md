@@ -12,7 +12,8 @@ Also check out my guide: [[Как настроить Zotero Integration plugin �
 
 You can also visit my [[now|/now page]] to see what I’m focused on lately.
 
-My personal recommendation for you is to read these notes:
+
+#### My personal recommendation for you is to read these notes:
 - On memory and retention
 	- [[Types of Long-term memory]]
 	- [[5,2 Generation effect]]
