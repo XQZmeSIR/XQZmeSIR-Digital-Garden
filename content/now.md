@@ -27,6 +27,6 @@ Here’s what I’m working on /now, in no particular order:
 	- Критическое мышление – Том Чатфилд
 
 ### Digital Gardening
-- Polishing my digital garden created with [Quartz](https://quartz.jzhao.xyz/) by Jacky Zhao
+- [x] Polishing my digital garden created with [Quartz](https://quartz.jzhao.xyz/) by Jacky Zhao
 - Publishing my notes from Obsidian and analog Zettelkasten here
 - [x] Creating new clean brunch and deleting old 1200+ ones
