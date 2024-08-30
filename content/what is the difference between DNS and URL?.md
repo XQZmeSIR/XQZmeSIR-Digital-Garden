@@ -1,6 +1,6 @@
 ---
 date: 2024-08-31
-draft: true
+draft: false
 tags:
 ---
 URL contains not only the DNS name but also [[Protocols]] and the path to a specific page on the website
