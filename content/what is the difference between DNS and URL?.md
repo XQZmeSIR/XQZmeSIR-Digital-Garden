@@ -3,8 +3,8 @@ date: 2024-08-31
 draft: false
 tags:
 ---
-URL contains not only the DNS name but also [[Protocols]] and the path to a specific page on the website
-e.g https://cloudflare.com/learning/
+**Uniform Resource Locator (URL)** contains not only the DNS name but also [[Protocols]] and the path to a specific page on the website
+e.g  https://cloudflare.com/learning/
 
 ---
 ### Reference:
