@@ -5,3 +5,7 @@ A. It is an abundance of connected devices that are bound to each other using st
 Q. 
 ?
 A. 
+
+Q. 
+?
+A. 
