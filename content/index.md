@@ -1,7 +1,6 @@
 ---
 title: Welcome! 🌱
 ---
-
 This is a tiny place for my [[1,1 definition of evergreen notes|Evergreen notes]]
 
 Some of the input that I consume goes through Obsidian or my Analog Zettelkasten, and then, appears here.
