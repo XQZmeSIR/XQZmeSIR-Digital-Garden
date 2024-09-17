@@ -5,11 +5,15 @@ tags:
 ---
 ```zsh
 sudo mariadb-upgrade --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+
 sudo mariadb-install-db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
 
 sudo systemctl status mariadb
+
 sudo systemctl start mariadb
+
 sudo systemctl stop mariadb
+
 mariadb -u solleks -p black
 ```
 
