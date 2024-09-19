@@ -22,5 +22,5 @@ The same steps also works for [[Как настроить Zotero Integration plu
 
 ### Related:
 - [[Как настроить Zotero Integration plugin в Obsidian раз и навсегда]]
-- [[How to see  the description of the system's hardware components in Linux - BIOS, RAM capacity, baseboard]]
+- [[How to see the description of the system's hardware components in Linux - BIOS, RAM capacity, baseboard]]
 - [[MariaDB SQL set up and commands]]

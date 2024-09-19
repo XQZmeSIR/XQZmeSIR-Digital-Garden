@@ -2,6 +2,7 @@
 date: 2024-09-15
 draft: false
 tags:
+  - linux
 ---
 To determine the maximum RAM capacity of your system in a Linux terminal, you can use the following command:
 
