@@ -5,7 +5,7 @@ This is a tiny place for my [[1,1 Definition of Evergreen Notes|Evergreen notes]
 
 Some of the input that I consume goes through Obsidian or my Analog Zettelkasten, and then, appears here.
 
-#### Structure  
+## Structure  
 [[mocs | MOCs]] — for abstract view of knowledge base]]  
 [[evergreens | Start here]] — to find out more about Evergreen notes.  
 [[notes | Notes]] — Random less developed ideas  
@@ -16,7 +16,7 @@ Also check out my guide: [[Как настроить Zotero Integration plugin �
 You can also visit my [[now|/now page]] to see what I’m focused on lately.
 
 
-#### My personal recommendation for you is to read these notes:
+### My personal recommendation for you is to read these notes:
 - On memory and retention
 	- [[Types of Long-term memory]]
 	- [[5,2 Generation effect]]
