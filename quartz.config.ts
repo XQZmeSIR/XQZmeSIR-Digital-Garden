@@ -17,14 +17,13 @@ const config: QuartzConfig = {
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
-      fontOrigin: "googleFonts",
+      fontOrigin: "none", //"googleFonts",
       cdnCaching: true,
       typography: {
         header: "Inconsolata",
         // header: "Schibsted Grotesk",
         // body: "Source Sans Pro",
         body: "Inconsolata",
-        body:lang(ru): "IBM Plex Mono",
         code: "JetBrains Mono",
       },
       colors: {
