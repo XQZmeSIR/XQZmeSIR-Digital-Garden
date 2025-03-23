@@ -11,9 +11,7 @@ const config: QuartzConfig = {
     pageTitle: "🪴 XQZmeSIR",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "plausible",
-    },
+    analytics: { provider: "goatcounter", websiteId: "xqzmesir" },
     locale: "en-US",
     baseUrl: "xqzmesir.ru",
     ignorePatterns: ["private", "templates", ".obsidian"],
