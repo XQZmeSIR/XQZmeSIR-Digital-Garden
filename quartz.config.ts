@@ -23,7 +23,7 @@ const config: QuartzConfig = {
         header: "Inconsolata",
         // header: "Schibsted Grotesk",
         // body: "Source Sans Pro",
-        body: "Inconsolata",
+        body: "M PLUS Rounded 1c", //"Inconsolata",
         code: "JetBrains Mono",
       },
       colors: {
