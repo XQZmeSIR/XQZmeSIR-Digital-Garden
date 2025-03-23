@@ -31,7 +31,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(
       Component.RecentNotes({
         title: "Recent Posts",
-        limit: 3,
+        limit: 4,
       }),
     ),
   ],
@@ -39,7 +39,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
-    Component.RecentNotes({ title: "Recent notes", limit: 4, showTags: false }),
+    // Component.RecentNotes({ title: "Recent notes", limit: 4, showTags: false }),
   ],
 }
 
