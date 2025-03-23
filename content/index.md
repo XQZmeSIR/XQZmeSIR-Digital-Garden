@@ -7,7 +7,7 @@ Some of the input that I consume goes through Obsidian or my Analog Zettelkasten
 
 ## Structure  
 [[mocs | MOCs]] — for abstract view of knowledge base  
-[[evergreens | Start here]] — to find out more about Evergreen notes.  
+[[evergreens | Evergreen notes]] — to find out more about Evergreen notes.  
 [[notes | Notes]] — Random less developed ideas  
 [[learning-programming | Notes on Programming]] — Here I put everything that's related to coding.  
 
