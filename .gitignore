@@ -5,6 +5,9 @@ public
 prof
 tsconfig.tsbuildinfo
 .obsidian
+content/.obsidian
+.trash
+content/.trash
 .quartz-cache
 private/
 .replit
