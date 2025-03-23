@@ -11,11 +11,6 @@ Also check out my guide: [[Как настроить Zotero Integration plugin �
 
 You can also visit my [[now|/now page]] to see what I’m focused on lately.
 
-### Structure
-
-[[Clippings]]
-[[Learning programming]]
-[[MOCs]]
 
 #### My personal recommendation for you is to read these notes:
 - On memory and retention
