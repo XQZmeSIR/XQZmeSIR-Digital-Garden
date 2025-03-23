@@ -5,7 +5,10 @@ This is a tiny place for my [[1,1 Definition of Evergreen Notes|Evergreen notes]
 
 Some of the input that I consume goes through Obsidian or my Analog Zettelkasten, and then, appears here.
 
-[[Evergreen notes MOC|Start here]] to find out more about Evergreen notes.
+[[mocs | MOCs]] — for abstract view of knowledge base]]  
+[[evergreens | Start here]] — to find out more about Evergreen notes.  
+[[notes | Notes]] — Random less developed ideas  
+[[learning-programming | Notes on Programming]] — Here I put everything that's related to coding.  
 
 Also check out my guide: [[Как настроить Zotero Integration plugin в Obsidian раз и навсегда]]. The second part with new features will come out soon. For even better workflow.
 

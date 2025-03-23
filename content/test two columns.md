@@ -3,3 +3,4 @@ Use a while loop to generate and print the Fibonacci sequence up to that number 
 The Fibonacci sequence starts with 0 and 1, and each subsequent term is the sum of the two preceding terms (e.g., 0, 1, 1, 2, 3, 5, 8...).
 </div> 
 
+<div style="column-count: 2; text-align: left;">TEXT</div>
