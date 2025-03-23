@@ -1,6 +1,6 @@
 ---
-date: 27-07-2023 12:43
-alias:
+date: 2023-07-27
+aliases:
 ---
 up:: 
 tags:: #🌳 

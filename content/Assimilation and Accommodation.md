@@ -1,5 +1,5 @@
 ---
-date: 24-07-2023 20:43
+date: 2023-07-24 20:43
 up:
   - "[[Learning MOC]]"
   - "[[Concepts MOC]]"
