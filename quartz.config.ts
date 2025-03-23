@@ -26,8 +26,7 @@ const config: QuartzConfig = {
         body: "Inconsolata",
         code: "JetBrains Mono",
       },
-      customCSS: "./quartz/styles/custom.scss",  // Ensure this path is correct
-      // customFonts: [{ font: "IBM Plex Mono", url: "https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" }],
+      customFonts: [{ font: "IBM Plex Mono", url: "https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" }],
       colors: {
         lightMode: {
           light: "#faf8f8",
