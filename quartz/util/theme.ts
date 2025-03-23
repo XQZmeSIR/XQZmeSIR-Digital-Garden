@@ -33,7 +33,7 @@ const DEFAULT_MONO = "ui-monospace, SFMono-Regular, SF Mono, Menlo, monospace"
 
 export function googleFontHref(theme: Theme) {
   const { code, header, body } = theme.typography
-  return `https://fonts.googleapis.com/css2?family=${code}&family=${header}:wght@400;700&family=${body}&family=IBM+Plex+Mono:cyrillic&display=swap`
+  return `https://fonts.googleapis.com/css2?family=${code}&family=${header}:wght@400;700&family=${body}&family=Nunito:cyrillic&display=swap`
 }
 
 export function joinStyles(theme: Theme, ...stylesheet: string[]) {
