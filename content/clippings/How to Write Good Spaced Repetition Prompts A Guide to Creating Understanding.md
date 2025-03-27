@@ -1,7 +1,6 @@
 ---
 sources:
   - "[[Andy Matuschak]]"
-published: 
 topics:
   - "[[Spaced Repetition]]"
   - "[[Memory]]"
@@ -19,6 +18,7 @@ tags:
   - memory
   - memory-prompts
 ---
+
 ## Summary
 This page is a comprehensive guide on how to write effective prompts for spaced repetition systems (SRS) to enhance understanding and memory retention. It emphasizes the importance of retrieval practice, where actively recalling information strengthens memory. The guide outlines key properties of effective prompts: focused, precise, consistent, tractable, and effortful. It uses a chicken stock recipe as a practical example to demonstrate how to break down factual, procedural, and conceptual knowledge into effective prompts. Strategies covered include creating simple fact prompts, handling lists with cloze deletions, using cues and elaborative encoding, and interpreting information to create deeper understanding. The guide also addresses conceptual knowledge by using lenses like attributes, similarities/differences, part/whole relationships, causes/effects, and significance. It discusses open lists, creative prompts, and salience prompts to keep ideas top-of-mind. Finally, it emphasizes iterative prompt-writing, provides litmus tests to identify potential prompt issues, and highlights the importance of revising prompts over time based on user experience.
 

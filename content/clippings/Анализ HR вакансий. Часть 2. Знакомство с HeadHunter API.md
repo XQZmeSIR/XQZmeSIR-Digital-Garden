@@ -4,8 +4,6 @@ author: "[[H0H1: про HR-аналитику]]"
 title: "Анализ HR вакансий. Часть 2. Знакомство с HeadHunter API"
 source: https://teletype.in/@h0h1_hr_analytics/Q00Bvj-_Fua#j82h
 clipped: 2024-09-09
-published: 
-topics: 
 tags: [clippings]
 ---
 
