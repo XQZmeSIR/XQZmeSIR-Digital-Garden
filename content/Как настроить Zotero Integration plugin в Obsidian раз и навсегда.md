@@ -1,5 +1,5 @@
 ---
-title: Zotero-Obsidian-Integration
+permalink: zotero-obsidian-integration
 ---
 
 >**Written by Amid the Chaos on June 30, 2023.**
