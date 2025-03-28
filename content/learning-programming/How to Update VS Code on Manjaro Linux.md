@@ -15,17 +15,20 @@ Visual Studio Code (VS Code) is a favorite among developers for its speed, flexi
 
 2. **Extract the Archive:**
    ```bash
-   tar -xvzf code-stable-x64-<newest version>.tar.gz 
+   tar -xvzf code-stable-x64-<newest version>.tar.gz
    ```
-   - *Explanation:* This command extracts the contents of the downloaded archive. Replace `<newest version>` with the actual version number you downloaded (e.g., `code-stable-x64-1.83.1.tar.gz`).
 
-3. **Move VS Code to the `/opt` Directory:**
+3. **Delete current files and move new VS Code to the `/opt` Directory:**
    ```bash
-   sudo mv VSCode-linux-x64/* /opt/vscode 
+   sudo rm -rf /opt/vscode/*
+4. sudo mv VSCode-linux-x64/* /opt/vscode 
    ```
    - *Explanation:* We move the extracted VS Code files to the `/opt` directory, a common location for manually installed software on Linux systems. This keeps our installation organized.
 
-4. **Create a Symbolic Link for Easy Access:**
+Usually, that's all. Now VScode is updated. Next step below is for rare cases.
+
+
+3. **Create a Symbolic Link for Easy Access(BUT USUALLY NOT NEEDED):**
    ```bash
    sudo ln -s /opt/vscode/code /usr/local/bin/vscode 
    ```
