@@ -1,3 +1,7 @@
+---
+title: Zotero-Obsidian-Integration
+---
+
 >**Written by Amid the Chaos on June 30, 2023.**
 
 
