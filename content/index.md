@@ -10,6 +10,7 @@ Some of the input that I consume goes through Obsidian or my Analog Zettelkasten
 [[evergreens | Evergreen notes]] — to find out more about Evergreen notes.  
 [[notes | Notes]] — Random less developed ideas  
 [[learning-programming | Notes on Programming]] — Here I put everything that's related to coding.  
+[[spaced retrieval practice prompts | Spaced retrieval practice prompts]] — retrieval prompts in Q:A: format. Great way for Augmenting Long-term Memory inspired by **Andy Matuschak**.  
 
 Also check out my guide: [[Как настроить Zotero Integration plugin в Obsidian раз и навсегда]]. The second part with new features will come out soon. For even better workflow.
 
