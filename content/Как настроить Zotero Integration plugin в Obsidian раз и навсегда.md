@@ -1,4 +1,10 @@
+---
+permalink: zotero-obsidian-integration
+---
+
 >**Written by Amid the Chaos on June 30, 2023.**
+>**Telegram**: @xqzmesir
+
 
 
 Несмотря на отличную работу Readwise’а, принизить трушность и удобство Zotero нельзя(и плохо). Поэтому давайте разбираться как его настроить в связке с Obsidian.
