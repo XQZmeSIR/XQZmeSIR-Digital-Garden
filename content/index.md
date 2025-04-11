@@ -12,7 +12,9 @@ Some of the input that I consume goes through Obsidian or my Analog Zettelkasten
 [[learning-programming | Notes on Programming]] — Here I put everything that's related to coding.  
 [[spaced retrieval practice prompts | Spaced retrieval practice prompts]] — retrieval prompts in Q:A: format. Great way for Augmenting Long-term Memory inspired by **Andy Matuschak**.  
 
-Also check out my guide: [[Как настроить Zotero Integration plugin в Obsidian раз и навсегда]]. The second part with new features will come out soon. For even better workflow.
+Also check out my guide: [[Как настроить Zotero Integration plugin в Obsidian раз и навсегда]]. The second part with new features will come out soon. For even better workflow.  
+
+New essay or a note, i guess? [[Измерения — основа изменений]]  
 
 You can also visit my [[now|/now page]] to see what I’m focused on lately.
 
