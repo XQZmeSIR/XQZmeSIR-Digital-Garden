@@ -17,6 +17,7 @@ section {
   background-color: var(--light);
   font-family: var(--bodyFont);
   color: var(--darkgray);
+  font-size: 16px;
 }
 
 .text-highlight {
@@ -54,7 +55,7 @@ ul,
 }
 
 strong {
-  font-weight: $semiBoldWeight;
+  font-weight: $boldWeight;
 }
 
 a {

@@ -23,7 +23,7 @@ const config: QuartzConfig = {
         header: "Sofia Sans Semi Condensed",
         // header: "Schibsted Grotesk",
         // body: "Source Sans Pro",
-        body: "Rubik", //"PT Sans", //"Inconsolata",
+        body: "Ubuntu Sans Mono", //"PT Sans", //"Inconsolata",
         code: "JetBrains Mono",
       },
       colors: {
