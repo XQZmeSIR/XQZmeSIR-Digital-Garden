@@ -20,10 +20,10 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Sofia Sans Semi Condensed",
+        header: "Rubik",
         // header: "Schibsted Grotesk",
         // body: "Source Sans Pro",
-        body: "Rubik", //"PT Sans", //"Inconsolata",
+        body: "Mulish", //"PT Sans", //"Inconsolata",
         code: "JetBrains Mono",
       },
       colors: {
