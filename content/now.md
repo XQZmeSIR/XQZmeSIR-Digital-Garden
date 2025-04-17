@@ -6,9 +6,9 @@ Here’s what I’m working on /now, in no particular order:
 
 ### Writing about
 - [x] The Michelangelo Effect
-- [ ] Active Recall, Testing effect, Retrieval practice
-- [ ] Reading framework for Distilling the Essence of the text
-	- [ ] Content Stages. 5 stages of reading. Content Framing Questions.
+- [x] Active Recall, Testing effect, Retrieval practice
+- [x] Reading framework for Distilling the Essence of the text
+	- [x] Content Stages. 5 stages of reading. Content Framing Questions.
 
 ### Research
 - Retrieval practice

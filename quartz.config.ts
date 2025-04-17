@@ -22,8 +22,8 @@ const config: QuartzConfig = {
       typography: {
         header: "Rubik",
         // header: "Schibsted Grotesk",
-        // body: "Source Sans Pro",
-        body: "Ubuntu Sans Mono", //"PT Sans", //"Inconsolata",
+        // body: "Source Sans Pro", M PLUS Rounded 1c, Exo 2, Libre Franklin, Vollkorn, JetBrains Mono        
+        body: "JetBrains Mono", //"PT Sans", //"Inconsolata",
         code: "JetBrains Mono",
       },
       colors: {
