@@ -22,8 +22,8 @@ const config: QuartzConfig = {
       typography: {
         header: "Rubik",
         // header: "Schibsted Grotesk",
-        // body: "Source Sans Pro", M PLUS Rounded 1c, Exo 2, Libre Franklin, Vollkorn, JetBrains Mono        
-        body: "Ubuntu Sans", //"PT Sans", //"Inconsolata",
+        // body: "Source Sans Pro", M PLUS Rounded 1c, Exo 2, Libre Franklin, Vollkorn, JetBrains Mono, Gidole, Rubik
+        body: "Sofia Sans", //"PT Sans", //"Inconsolata",
         code: "JetBrains Mono",
       },
       colors: {
@@ -55,7 +55,7 @@ const config: QuartzConfig = {
     transformers: [
       Plugin.FrontMatter(),
       Plugin.CreatedModifiedDate({
-        priority: ["frontmatter", "git"],
+        priority: ["filesystem", "git", "frontmatter"],
       }),
       Plugin.Latex({ renderEngine: "katex" }),
       Plugin.SyntaxHighlighting({

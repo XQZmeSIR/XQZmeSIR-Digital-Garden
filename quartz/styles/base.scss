@@ -56,7 +56,7 @@ ul,
 
 strong {
   font-weight: $boldWeight;
-  // color: #63e688 !important;
+  color: #4db6ac !important;
 }
 
 a {
@@ -412,10 +412,25 @@ code {
   background: var(--lightgray);
 }
 
+
+// <p> tag justified the <p> tag inside of footer,
+// so i made defined the footer p tag separately
+footer p {
+  text-align: center;
+}
+
+
+// justify the content of a note
+p {
+  text-align: justify;
+}
+
+// line-height of a note content and between bullet lists
 tbody,
 li,
 p {
-  line-height: 1.7rem;
+  font-size: 19px;
+  line-height: 1.9rem;
   /* padding-top: 9px; */
 }
 
