@@ -26,29 +26,28 @@ const config: QuartzConfig = {
         body: "Gidole", //"PT Sans", //"Inconsolata",
         code: "JetBrains Mono",
       },
-      colors: {
-        lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          // secondary: "#284b63",
-          secondary: "#f05a7f",
-          tertiary: "#2b2b2b",
-          highlight: "rgba(143, 159, 169, 0.15)",
-        },
-        darkMode: {
-          light: "#24283b",
-          lightgray: "#414868",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#bb9af7",
-          tertiary: "#7aa2f7",
-          highlight: "rgba(143, 159, 169, 0.15)",
-        },
-      },
+colors: {
+  lightMode: {
+    light: "#fafafa",       // Light background
+    lightgray: "#edf2f7",   // Light UI elements
+    gray: "#a2aabc",        // Muted text
+    darkgray: "#3e4759",    // Darker text for contrast
+    dark: "#1d2433",        // Almost black text
+    secondary: "#7889e4",   // Indigo accent 
+    tertiary: "#5ccfe6",    // Cyan accent
+    highlight: "rgba(120, 137, 228, 0.15)", // Indigo highlight
+  },
+  darkMode: {
+    light: "#1d2433",       // Dark background
+    lightgray: "#2f3b54",   // UI elements
+    gray: "#a2aabc",        // Text color
+    darkgray: "#d7dce2",    // Highlighted text
+    dark: "#d7dce2",        // Light text
+    secondary: "#5ccfe6",   // Cyan accent
+    tertiary: "#c3a6ff",    // Purple/lavender accent
+    highlight: "rgba(92, 207, 230, 0.15)", // Cyan highlight
+  },
+},
     },
   },
   plugins: {
