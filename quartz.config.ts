@@ -23,7 +23,7 @@ const config: QuartzConfig = {
         header: "Rubik",
         // header: "Schibsted Grotesk",
         // body: "Source Sans Pro", M PLUS Rounded 1c, Exo 2, Libre Franklin, Vollkorn, JetBrains Mono, Gidole, Rubik
-        body: "Sofia Sans", //"PT Sans", //"Inconsolata",
+        body: "Rubik", //"PT Sans", //"Inconsolata",
         code: "JetBrains Mono",
       },
       colors: {
