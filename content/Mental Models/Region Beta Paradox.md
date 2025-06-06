@@ -1,0 +1,30 @@
+**Definition**: A phenomenon where individuals recover faster from intensely negative experiences (even slightly more severe ones) than from less distressing ones, despite the latter being "easier" to handle.  
+
+**Core Idea**:  
+- **Contradiction**: Intense negative events often trigger quicker resolution because they demand immediate action, while milder ones linger due to underestimation of their impact.  
+- **Example**:  
+  - *Scenario 1*: A car accident (severe) leads to rapid repairs and emotional closure.  
+  - *Scenario 2*: A minor fender bender (slightly less severe) causes prolonged stress from repeated worry about costs or safety.  
+
+**Why It Happens**:  
+1. **Psychological Momentum**: Severe events force decisiveness (e.g., "I need to fix this now"), whereas mild ones allow procrastination.  
+2. **First-Order vs. Second-Order Thinking**:  
+   - *First-Order*: Focus on immediate pain (e.g., "This is terrible!").  
+   - *Second-Order*: Overlook long-term consequences (e.g., "This minor issue could escalate if ignored").  
+
+**Mental Models**:  
+- **Pareto Principle (80/20)**: 20% of problems (severe ones) often require 80% of effort, but addressing them swiftly avoids larger downstream costs.  
+- **Inversion Principle**: Ask, "What if I *didn't* act on the intense experience? Would the outcome be worse?"  
+- **Circle of Competence**: Severe events may fall outside your "comfort zone," prompting you to seek help (e.g., professionals), while mild ones stay within your "competence" but require sustained effort.  
+
+**Implications**:  
+- **Action Bias**: Severe problems are more likely to be resolved because they demand action, whereas mild ones are rationalized away.  
+- **Opportunity Cost**: Prolonged focus on minor issues (e.g., worrying about a fender bender) wastes time that could be used for growth.  
+
+**Mitigation Strategy**:  
+- **Proactive Decision-Making**: Address even "small" issues with the same urgency as severe ones to prevent compounding.  
+- **Reframe Severity**: Ask, "How would I react if this were 10x worse?" to prioritize actions effectively.  
+
+---  
+**Connection to Sunk Cost Fallacy**:  
+While the Sunk Cost Fallacy focuses on clinging to past investments, the Region Beta Paradox highlights how *severity* (not just cost) drives decision-making. Both relate to **behavioral economics** but emphasize different biases: one about past resources, the other about perceived intensity.
