@@ -2,7 +2,7 @@
 permalink: zotero-obsidian-integration
 ---
 
->**Written by Amid the Chaos on June 30, 2023.**
+>**Written by Amid the Chaos on June 30, 2023.**  
 >**Telegram**: @xqzmesir
 
 
