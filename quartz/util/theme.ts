@@ -33,7 +33,20 @@ const DEFAULT_MONO = "ui-monospace, SFMono-Regular, SF Mono, Menlo, monospace"
 
 export function googleFontHref(theme: Theme) {
   const { code, header, body } = theme.typography
-  return `https://fonts.googleapis.com/css2?family=${code}&family=${header}:wght@400;500;600;700;800;900&family=${body}:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap`
+  const fonts = [code, header, body]
+  const families = fonts
+    .flatMap((font) => font.split(","))
+    .map((font) => font.trim().replace(/^['"]|['"]$/g, "")) // Remove quotes
+    .map((font) => font.replace(/ /g, "+")) // Replace spaces with +
+
+  // Note: This simple mapping might need refinement for weight-specific loading 
+  // if you want different weights for different fonts in the same list.
+  // For now, it joins them into a valid Google Fonts URL query.
+  const query = families
+    .map((f) => `family=${f}:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900`)
+    .join("&")
+
+  return `https://fonts.googleapis.com/css2?${query}&display=swap`
 }
 
 export function joinStyles(theme: Theme, ...stylesheet: string[]) {
@@ -50,9 +63,9 @@ ${stylesheet.join("\n\n")}
   --tertiary: ${theme.colors.lightMode.tertiary};
   --highlight: ${theme.colors.lightMode.highlight};
 
-  --headerFont: "${theme.typography.header}", ${DEFAULT_SANS_SERIF};
-  --bodyFont: "${theme.typography.body}", ${DEFAULT_SANS_SERIF};
-  --codeFont: "${theme.typography.code}", ${DEFAULT_MONO};
+  --headerFont: ${theme.typography.header.includes(",") ? theme.typography.header : `"${theme.typography.header}"`}, ${DEFAULT_SANS_SERIF};
+  --bodyFont: ${theme.typography.body.includes(",") ? theme.typography.body : `"${theme.typography.body}"`}, ${DEFAULT_SANS_SERIF};
+  --codeFont: ${theme.typography.code.includes(",") ? theme.typography.code : `"${theme.typography.code}"`}, ${DEFAULT_MONO};
 }
 
 :root[saved-theme="dark"] {
