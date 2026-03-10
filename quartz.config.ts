@@ -28,7 +28,7 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
+          light: "#ffffff",
           lightgray: "#e5e5e5",
           gray: "#b8b8b8",
           darkgray: "#4e4e4e",
@@ -37,6 +37,7 @@ const config: QuartzConfig = {
           secondary: "#f05a7f",
           tertiary: "#2b2b2b",
           highlight: "rgba(143, 159, 169, 0.15)",
+          textHighlight: "#fff23688",
         },
         darkMode: {
           light: "#1d2433", // Dark background
@@ -47,6 +48,7 @@ const config: QuartzConfig = {
           secondary: "#5ccfe6", // Cyan accent
           tertiary: "#c3a6ff", // Purple/lavender accent
           highlight: "rgba(92, 207, 230, 0.15)", // Cyan highlight
+          textHighlight: "#b3aa0288",
         },
       },
     },

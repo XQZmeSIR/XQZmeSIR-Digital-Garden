@@ -58,6 +58,7 @@
     align-self: flex-start;
     margin-top: auto;
     margin-bottom: auto;
+    margin-right: 0;
   }
 
   button.mobile-explorer {
@@ -251,7 +252,7 @@ li:has(> .folder-outer:not(.open))>.folder-container>svg {
       top: 0;
       left: 0;
       margin-top: 0;
-      background-color: var(--light);
+      background-color: #f3f3f3;
       max-width: 100vw;
       width: 100vw;
       transform: translateX(-100vw);
