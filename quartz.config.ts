@@ -20,7 +20,7 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Rubik",
+        header: "Space Grotesk",
         // header: "Schibsted Grotesk",
         // body: "Source Sans Pro", M PLUS Rounded 1c, Exo 2, Libre Franklin, Vollkorn, JetBrains Mono, Gidole, Rubik
         body: "Space Grotesk", //"PT Sans", //"Inconsolata",
