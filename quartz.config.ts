@@ -23,8 +23,8 @@ const config: QuartzConfig = {
         header: "Rubik",
         // header: "Schibsted Grotesk",
         // body: "Source Sans Pro", M PLUS Rounded 1c, Exo 2, Libre Franklin, Vollkorn, JetBrains Mono, Gidole, Rubik
-        body: "Rubik", //"PT Sans", //"Inconsolata",
-        code: "JetBrains Mono",
+        body: "Space Grotesk", //"PT Sans", //"Inconsolata",
+        code: "Space Mono",
       },
       colors: {
         lightMode: {
@@ -39,13 +39,13 @@ const config: QuartzConfig = {
           highlight: "rgba(143, 159, 169, 0.15)",
         },
         darkMode: {
-          light: "#1d2433",       // Dark background
-          lightgray: "#2f3b54",   // UI elements
-          gray: "#a2aabc",        // Text color
-          darkgray: "#d7dce2",    // Highlighted text
-          dark: "#d7dce2",        // Light text
-          secondary: "#5ccfe6",   // Cyan accent
-          tertiary: "#c3a6ff",    // Purple/lavender accent
+          light: "#1d2433", // Dark background
+          lightgray: "#2f3b54", // UI elements
+          gray: "#a2aabc", // Text color
+          darkgray: "#d7dce2", // Highlighted text
+          dark: "#d7dce2", // Light text
+          secondary: "#5ccfe6", // Cyan accent
+          tertiary: "#c3a6ff", // Purple/lavender accent
           highlight: "rgba(92, 207, 230, 0.15)", // Cyan highlight
         },
       },
