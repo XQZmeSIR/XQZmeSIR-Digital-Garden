@@ -20,10 +20,10 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Space Grotesk",
+        header: "Russo One",
         // header: "Schibsted Grotesk",
         // body: "Source Sans Pro", M PLUS Rounded 1c, Exo 2, Libre Franklin, Vollkorn, JetBrains Mono, Gidole, Rubik
-        body: "Space Grotesk", //"PT Sans", //"Inconsolata",
+        body: "Space Grotesk", "Unbounded", //"PT Sans", //"Inconsolata",
         code: "Space Mono",
       },
       colors: {
