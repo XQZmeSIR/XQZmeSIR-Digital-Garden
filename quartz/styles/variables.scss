@@ -12,6 +12,14 @@ $breakpoints: (
   desktop: 1200px,
 );
 
+:root {
+  --sidebar-bg: #f3f3f3;
+}
+
+:root[saved-theme="dark"] {
+  --sidebar-bg: #161b26;
+}
+
 $mobile: "(max-width: #{map.get($breakpoints, mobile)})";
 $tablet: "(min-width: #{map.get($breakpoints, mobile)}) and (max-width: #{map.get($breakpoints, desktop)})";
 $desktop: "(min-width: #{map.get($breakpoints, desktop)})";
@@ -28,8 +36,7 @@ $mobileGrid: (
   templateColumns: "auto",
   rowGap: "5px",
   columnGap: "5px",
-  templateAreas:
-    '"grid-sidebar-left"\
+  templateAreas: '"grid-sidebar-left"\
       "grid-header"\
       "grid-center"\
       "grid-sidebar-right"\
@@ -39,9 +46,8 @@ $tabletGrid: (
   templateRows: "auto auto auto auto",
   templateColumns: "#{$sidePanelWidth} auto",
   rowGap: "5px",
-  columnGap: "5px",
-  templateAreas:
-    '"grid-sidebar-left grid-header"\
+  columnGap: "6rem",
+  templateAreas: '"grid-sidebar-left grid-header"\
       "grid-sidebar-left grid-center"\
       "grid-sidebar-left grid-sidebar-right"\
       "grid-sidebar-left grid-footer"',
@@ -50,9 +56,8 @@ $desktopGrid: (
   templateRows: "auto auto auto",
   templateColumns: "#{$sidePanelWidth} auto #{$sidePanelWidth}",
   rowGap: "5px",
-  columnGap: "5px",
-  templateAreas:
-    '"grid-sidebar-left grid-header grid-sidebar-right"\
+  columnGap: "6rem",
+  templateAreas: '"grid-sidebar-left grid-header grid-sidebar-right"\
       "grid-sidebar-left grid-center grid-sidebar-right"\
       "grid-sidebar-left grid-footer grid-sidebar-right"',
 );

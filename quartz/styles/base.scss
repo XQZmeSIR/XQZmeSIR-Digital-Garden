@@ -82,11 +82,11 @@ article {
 }
 
 strong {
-  font-weight: $semiBoldWeight;
+  font-weight: $boldWeight;
 }
 
 a {
-  font-weight: $semiBoldWeight;
+  font-weight: $boldWeight;
   text-decoration: none;
   transition: color 0.2s ease;
   color: var(--secondary);
@@ -237,20 +237,38 @@ a {
       gap: 1.2rem;
       top: 0;
       box-sizing: border-box;
-      padding: $topSpacing 2rem 2rem 2rem;
       display: flex;
-      height: 100vh;
-      position: sticky;
+
+      @media all and not ($mobile) {
+        padding: $topSpacing 2rem 2rem 2rem;
+        height: 100vh;
+        position: sticky;
+      }
     }
 
     & .sidebar.left {
       z-index: 1;
       grid-area: grid-sidebar-left;
       flex-direction: column;
-      background-color: #f3f3f3;
+
+      @media all and not ($mobile) {
+        position: relative;
+        background-color: var(--sidebar-bg);
+
+        &::after {
+          content: "";
+          position: absolute;
+          top: -100vh;
+          bottom: -100vh;
+          left: -100vw;
+          right: 0;
+          background-color: var(--sidebar-bg);
+          z-index: -1;
+        }
+      }
 
       @media all and ($mobile) {
-        background-color: var(--light);
+        background-color: transparent;
         gap: 0;
         align-items: center;
         position: initial;
@@ -424,7 +442,7 @@ h6 {
 
 // typography improvements
 h1 {
-  font-size: 1.75rem;
+  font-size: 1.55rem;
   margin-top: 2.25rem;
   margin-bottom: 1rem;
 }
