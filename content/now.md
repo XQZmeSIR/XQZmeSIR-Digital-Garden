@@ -10,9 +10,7 @@ Here’s what I’m working on /now, in no particular order:
 - [ ] It's just a numbers game. Volume negated luck.
 
 ### Research
-- Retrieval practice
-- Spaced repetition memory system
-- Human Mating Preferences with Respect to Height
+- Archetypes, Carl Jung, Unconscious and shadow.
 - Caffeine withdrawal
 
 ### Current Reading List
