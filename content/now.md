@@ -5,10 +5,9 @@ date: 2024-05-25
 Here’s what I’m working on /now, in no particular order:
 
 ### Writing about
-- [x] The Michelangelo Effect
-- [x] Active Recall, Testing effect, Retrieval practice
-- [x] Reading framework for Distilling the Essence of the text
-	- [x] Content Stages. 5 stages of reading. Content Framing Questions.
+- [ ] Gaining luck from uncertainty, black swans, COVID and AI connection with it. 
+- [ ] Андрей Карпатый традиционное понятие разработчика уходит на второй план. 
+- [ ] It's just a numbers game. Volume negated luck.
 
 ### Research
 - Retrieval practice
