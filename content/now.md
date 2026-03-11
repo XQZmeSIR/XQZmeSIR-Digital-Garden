@@ -17,11 +17,12 @@ Here’s what I’m working on /now, in no particular order:
 
 ### Current Reading List
 - ==Reading now==
-	- Бизнес без MBA – Тиньков
+	- Мужские правила - Марк Мэнсон. 
+	- Siegel Andrew F. Practical Business Statistics, 7th edition, 2016. 
 - ==Queue==
-	- Make it stick – Brown, Peter C.
+	- Black Swan - Nassim Taleb
+	- Бизнес без MBA – Тиньков
 	- Джедайские техники – Дорофеев
-	- On Writing Well, 30th Anniversary Edition – William Zinsser
 	- Meditations – Marcus Aurelius
 	- Критическое мышление – Том Чатфилд
 
