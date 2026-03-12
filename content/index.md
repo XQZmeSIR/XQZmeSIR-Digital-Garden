@@ -1,5 +1,6 @@
 ---
 title: XQZmeSIR 🌱
+publish: true
 ---
 This is a tiny place for my [[1,1 Definition of Evergreen Notes|Evergreen notes]]
 

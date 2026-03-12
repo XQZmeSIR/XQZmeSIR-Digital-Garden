@@ -1,6 +1,7 @@
 ---
 title: What I’m Doing Now
 date: 2024-05-25
+publish: true
 ---
 Here’s what I’m working on /now, in no particular order:
 

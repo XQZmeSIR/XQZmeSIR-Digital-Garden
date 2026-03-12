@@ -1,5 +1,6 @@
 ---
 permalink: zotero-obsidian-integration
+publish: true
 ---
 
 >**Written by Amid the Chaos on June 30, 2023.**  
