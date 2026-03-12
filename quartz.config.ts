@@ -14,7 +14,15 @@ const config: QuartzConfig = {
     analytics: { provider: "goatcounter", websiteId: "xqzmesir" },
     locale: "en-US",
     baseUrl: "xqzmesir.ru",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: [
+      "private",
+      "templates",
+      "clippings",
+      "copilot",
+      "copilot-conversations",
+      "copilot-custom-prompts",
+      ".obsidian",
+    ],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
