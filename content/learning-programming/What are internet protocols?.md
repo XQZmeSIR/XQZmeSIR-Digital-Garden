@@ -1,1 +1,0 @@
-A protocol is a set of rules and standards that define how information is exchanged between devices and systems.
