@@ -17,8 +17,9 @@
     .sidebar.left:has(.explorer) {
       box-sizing: border-box;
       position: sticky;
-      background-color: var(--sidebar-bg);
-      backdrop-filter: blur(10px);
+      background-color: var(--sidebar-bg-mobile);
+      backdrop-filter: blur(6px);
+      border-bottom: 1px solid color-mix(in srgb, var(--lightgray) 72%, transparent);
       padding: 1rem 0 1rem 0;
       margin: 0;
     }
@@ -253,7 +254,8 @@ li:has(> .folder-outer:not(.open))>.folder-container>svg {
       top: 0;
       left: -1rem;
       margin-top: 0;
-      background-color: var(--sidebar-bg);
+      background-color: var(--sidebar-bg-mobile);
+      backdrop-filter: blur(8px);
       max-width: 100vw;
       width: 100vw;
       transform: translateX(-100vw);
@@ -265,6 +267,7 @@ li:has(> .folder-outer:not(.open))>.folder-container>svg {
       height: 100dvh;
       max-height: 100dvh;
       visibility: hidden;
+      box-shadow: 0 20px 40px rgba(15, 23, 42, 0.12);
     }
 
     .mobile-explorer {

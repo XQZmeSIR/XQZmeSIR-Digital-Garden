@@ -14,6 +14,7 @@ $breakpoints: (
 
 :root {
   --sidebar-bg: color-mix(in srgb, var(--light) 68%, transparent);
+  --sidebar-bg-mobile: color-mix(in srgb, var(--light) 90%, transparent);
   --page-pattern-line: rgba(43, 43, 43, 0.11);
   --page-pattern-grid-size: 38px;
   --page-pattern-edge-start: 70%;
@@ -27,6 +28,7 @@ $breakpoints: (
   --page-pattern-line: rgba(35, 35, 35, 0.92);
   */
   --sidebar-bg: color-mix(in srgb, var(--light) 58%, transparent);
+  --sidebar-bg-mobile: color-mix(in srgb, var(--light) 84%, transparent);
   --page-pattern-line: rgba(215, 220, 226, 0.12);
   --page-pattern-edge-fade: color-mix(in srgb, var(--light) 66%, transparent);
 }
