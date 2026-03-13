@@ -18,7 +18,35 @@ html {
 body {
   margin: 0;
   box-sizing: border-box;
+  min-height: 100vh;
   background-color: var(--light);
+  background-image:
+    linear-gradient(90deg, var(--page-pattern-edge-fade) 0, transparent 3.5%),
+    linear-gradient(270deg, var(--page-pattern-edge-fade) 0, transparent 3.5%),
+    linear-gradient(180deg, var(--page-pattern-edge-fade) 0, transparent 4%),
+    linear-gradient(0deg, var(--page-pattern-edge-fade) 0, transparent 4%),
+    radial-gradient(
+      circle at center,
+      transparent 0,
+      transparent var(--page-pattern-edge-start),
+      color-mix(in srgb, var(--light) 52%, transparent) 86%,
+      var(--light) var(--page-pattern-edge-end)
+    ),
+    repeating-linear-gradient(
+      90deg,
+      transparent 0,
+      transparent calc(var(--page-pattern-grid-size) - 1px),
+      var(--page-pattern-line) calc(var(--page-pattern-grid-size) - 1px),
+      var(--page-pattern-line) var(--page-pattern-grid-size)
+    ),
+    repeating-linear-gradient(
+      180deg,
+      transparent 0,
+      transparent calc(var(--page-pattern-grid-size) - 1px),
+      var(--page-pattern-line) calc(var(--page-pattern-grid-size) - 1px),
+      var(--page-pattern-line) var(--page-pattern-grid-size)
+    );
+  background-attachment: fixed;
   font-family: var(--bodyFont);
   color: var(--darkgray);
 }
@@ -254,6 +282,7 @@ a {
       @media all and not ($mobile) {
         position: relative;
         background-color: var(--sidebar-bg);
+        backdrop-filter: blur(12px);
 
         &::after {
           content: "";
@@ -263,6 +292,7 @@ a {
           left: -100vw;
           right: 0;
           background-color: var(--sidebar-bg);
+          backdrop-filter: blur(12px);
           z-index: -1;
         }
       }
@@ -284,6 +314,25 @@ a {
       grid-area: grid-sidebar-right;
       margin-right: 0;
       flex-direction: column;
+
+      @media all and not ($mobile) {
+        position: relative;
+        background-color: var(--sidebar-bg);
+        backdrop-filter: blur(12px);
+        z-index: 1;
+
+        &::after {
+          content: "";
+          position: absolute;
+          top: -100vh;
+          bottom: -100vh;
+          left: 0;
+          right: -100vw;
+          background-color: var(--sidebar-bg);
+          backdrop-filter: blur(12px);
+          z-index: -1;
+        }
+      }
 
       @media all and ($mobile) {
         margin-left: inherit;

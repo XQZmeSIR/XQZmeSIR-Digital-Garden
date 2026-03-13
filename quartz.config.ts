@@ -48,6 +48,15 @@ const config: QuartzConfig = {
           textHighlight: "#fff23688",
         },
         darkMode: {
+          // Rolled-back black theme variant for reference:
+          // light: "#0a0a0a",
+          // lightgray: "#232323",
+          // gray: "#9a9a9a",
+          // darkgray: "#d6d6d6",
+          // dark: "#fafafa",
+          // secondary: "#fafafa",
+          // tertiary: "#d6d6d6",
+          // highlight: "rgba(250, 250, 250, 0.08)",
           light: "#1d2433", // Dark background
           lightgray: "#2f3b54", // UI elements
           gray: "#a2aabc", // Text color
