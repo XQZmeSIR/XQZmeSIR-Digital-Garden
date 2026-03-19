@@ -32,21 +32,27 @@ body {
       color-mix(in srgb, var(--light) 52%, transparent) 86%,
       var(--light) var(--page-pattern-edge-end)
     ),
-    repeating-linear-gradient(
-      90deg,
-      transparent 0,
-      transparent calc(var(--page-pattern-grid-size) - 1px),
-      var(--page-pattern-line) calc(var(--page-pattern-grid-size) - 1px),
-      var(--page-pattern-line) var(--page-pattern-grid-size)
-    ),
-    repeating-linear-gradient(
-      180deg,
-      transparent 0,
-      transparent calc(var(--page-pattern-grid-size) - 1px),
-      var(--page-pattern-line) calc(var(--page-pattern-grid-size) - 1px),
-      var(--page-pattern-line) var(--page-pattern-grid-size)
+    radial-gradient(
+      circle,
+      var(--page-pattern-dot) 0,
+      var(--page-pattern-dot) var(--page-pattern-dot-size),
+      transparent calc(var(--page-pattern-dot-size) + 0.2px)
     );
   background-attachment: fixed;
+  background-size:
+    auto,
+    auto,
+    auto,
+    auto,
+    auto,
+    var(--page-pattern-grid-size) var(--page-pattern-grid-size);
+  background-position:
+    center,
+    center,
+    center,
+    center,
+    center,
+    center;
   font-family: var(--bodyFont);
   color: var(--darkgray);
 }
