@@ -2,14 +2,15 @@
 publish: true
 title: What I’m Doing Now
 created: 2024-05-25
-modified: 2026-03-12T13:06:42.095+03:00
+modified: 2026-03-14T13:06:40.497+03:00
 cssclasses: ""
 ---
 
 Here’s what I’m working on /now, in no particular order:
 
 ### Writing about
-- [ ] Gaining luck from uncertainty, black swans, COVID and AI connection with it. 
+- [ ] Gaining luck from uncertainty, black swans, COVID and AI connection with it. [[_inbox/Leveraging uncertainty and black swans]]
+[[_inbox/root cause techniques and frameworks]]
 - [ ] Андрей Карпатый традиционное понятие разработчика уходит на второй план. 
 - [ ] It's just a numbers game. Volume negated luck.
 
