@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2026-03-14 00:06
-modified: 2026-03-15T12:59:20.291+03:00
+modified: 2026-03-20T22:10:34.957+03:00
 cssclasses: ""
 ---
 
@@ -18,11 +18,11 @@ What you become depends on what you are currently doing. Build productive habits
 
 
 > [!own] Personal context
-> Looking back 4 years ago, I realize that the vast web of my skills in different domains is the result of my consistent, obsessive actions throughout those years. I can watch, read, listen to anything in English because one day in February 2022, after playing PUBG Mobile I decided to learn the language. The russian guy that was in my team spoke such a fluent Eng that it was enough to make a radical change in my brain chemistry.
-> Since that day I was consistent in my learning, consumption, acquisition of the language.
+> Looking back 4 years ago, I realize that the vast web of my skills in different domains is the result of my consistent, obsessive actions throughout those years. I can watch, read, listen to anything in English because one day in February 2022, after playing PUBG Mobile, I decided to learn the language. The Russian guy that was in my team spoke such fluent English that it was enough to make a radical change in my brain chemistry.
+> Since that day, I have been consistent in my learning, consumption, and acquisition of the language.
 > 
 > And as a result of that, now, my prospect of consumption, reach, and creation is so much broader than I ever had.
 > 
-> The same happened with programming skills, design skills, and marketing skills. I became a polymath, who intermediated in all those domains. Fits everywhere, and nowhere at the same time.
+> The same happened with programming skills, design skills, and marketing skills. I became a polymath, who intermediated in all those domains. It fits everywhere, and nowhere at the same time.
 > 
-> It's confusing and overwhealming sometimes, but... I like it. I like this hollow and wandering feeling.
+> It's confusing and overwhelming sometimes, but... I like it. I like this hollow and wandering feeling.
