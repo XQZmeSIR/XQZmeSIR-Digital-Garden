@@ -136,10 +136,30 @@ button.desktop-explorer {
       pointer-events: all;
       font-family: var(--bodyFont);
       font-size: 1rem;
+      border-left: 2px solid transparent;
+      border-radius: 5px;
+      display: block;
+      margin: 0.08rem 0;
+      padding: 0.12rem 0.35rem;
+      transition:
+        background-color 0.16s ease,
+        border-color 0.16s ease,
+        color 0.16s ease,
+        opacity 0.16s ease;
+
+      &:hover,
+      &:focus-visible {
+        background-color: var(--explorer-note-hover-bg);
+        border-left-color: var(--explorer-note-hover-border);
+        color: var(--secondary);
+        opacity: 1;
+      }
 
       &.active {
         opacity: 1;
         color: var(--tertiary);
+        background-color: var(--explorer-note-hover-bg);
+        border-left-color: var(--explorer-note-hover-border);
       }
     }
   }

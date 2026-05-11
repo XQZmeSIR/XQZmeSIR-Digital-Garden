@@ -15,6 +15,8 @@ $breakpoints: (
 :root {
   --sidebar-bg: color-mix(in srgb, var(--light) 68%, transparent);
   --sidebar-bg-mobile: color-mix(in srgb, var(--light) 97%, transparent);
+  --explorer-note-hover-bg: color-mix(in srgb, var(--secondary) 10%, transparent);
+  --explorer-note-hover-border: color-mix(in srgb, var(--secondary) 38%, transparent);
   /* Previous grid values for rollback:
   --page-pattern-line: rgba(43, 43, 43, 0.11);
   */
@@ -33,6 +35,8 @@ $breakpoints: (
   */
   --sidebar-bg: color-mix(in srgb, var(--light) 58%, transparent);
   --sidebar-bg-mobile: color-mix(in srgb, var(--light) 94%, transparent);
+  --explorer-note-hover-bg: color-mix(in srgb, var(--secondary) 12%, transparent);
+  --explorer-note-hover-border: color-mix(in srgb, var(--secondary) 42%, transparent);
   --page-pattern-dot: rgba(215, 220, 226, 0.14);
   --page-pattern-edge-fade: color-mix(in srgb, var(--light) 66%, transparent);
 }
