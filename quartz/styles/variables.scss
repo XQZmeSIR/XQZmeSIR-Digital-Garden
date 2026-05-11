@@ -17,6 +17,11 @@ $breakpoints: (
   --sidebar-bg-mobile: color-mix(in srgb, var(--light) 97%, transparent);
   --explorer-note-hover-bg: color-mix(in srgb, var(--secondary) 10%, transparent);
   --explorer-note-hover-border: color-mix(in srgb, var(--secondary) 38%, transparent);
+  --strong-color: #d93f69;
+  --em-color: #000000;
+  --mark-bg: rgba(240, 90, 127, 0.14);
+  --mark-color: #9f2549;
+  --mark-border: rgba(240, 90, 127, 0.28);
   /* Previous grid values for rollback:
   --page-pattern-line: rgba(43, 43, 43, 0.11);
   */
@@ -37,6 +42,11 @@ $breakpoints: (
   --sidebar-bg-mobile: color-mix(in srgb, var(--light) 94%, transparent);
   --explorer-note-hover-bg: color-mix(in srgb, var(--secondary) 12%, transparent);
   --explorer-note-hover-border: color-mix(in srgb, var(--secondary) 42%, transparent);
+  --strong-color: #8be9f7;
+  --em-color: #c3a6ff;
+  --mark-bg: rgba(92, 207, 230, 0.16);
+  --mark-color: #8be9f7;
+  --mark-border: rgba(92, 207, 230, 0.34);
   --page-pattern-dot: rgba(215, 220, 226, 0.14);
   --page-pattern-edge-fade: color-mix(in srgb, var(--light) 66%, transparent);
 }

@@ -58,9 +58,12 @@ body {
 }
 
 .text-highlight {
-  background-color: var(--textHighlight);
+  background-color: var(--mark-bg);
+  color: var(--mark-color);
   padding: 0 0.1rem;
   border-radius: 5px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
 }
 
 ::selection {
@@ -117,6 +120,22 @@ article {
 
 strong {
   font-weight: $boldWeight;
+  color: var(--strong-color);
+}
+
+em {
+  color: var(--em-color);
+  font-style: italic;
+}
+
+mark {
+  background-color: var(--mark-bg);
+  color: var(--mark-color);
+  border-bottom: 1px solid var(--mark-border);
+  border-radius: 5px;
+  padding: 0 0.12rem;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
 }
 
 a {
@@ -231,7 +250,7 @@ a {
     }
 
     p>strong {
-      color: var(--dark);
+      color: var(--strong-color);
     }
   }
 

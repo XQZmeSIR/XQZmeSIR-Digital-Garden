@@ -32,7 +32,7 @@ const config: QuartzConfig = {
         // header: "Schibsted Grotesk",
         // body: "Source Sans Pro", M PLUS Rounded 1c, Exo 2, Libre Franklin, Vollkorn, JetBrains Mono, Gidole, Rubik
         body: "Space Grotesk", // "PT Sans", "Inconsolata",
-        code: "Space Mono",
+        code: "JetBrains Mono",
       },
       colors: {
         lightMode: {
