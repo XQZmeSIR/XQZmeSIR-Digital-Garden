@@ -1,18 +1,19 @@
 ---
 publish: true
 created: 2026-03-07T02:30:13.852+03:00
-modified: 2026-03-13T18:53:40.783+03:00
-cssclasses: ""
+modified: 2026-04-05T19:12:59.976+03:00
 ---
 
-# PostgreSQL `\copy` Cheatsheet
+# ,PostgreSQL `\copy` Cheatsheet
 
 ## Basic Syntax
+
 ```sql
 \copy table_name [ (column1, column2, ...) ] FROM 'file_path' [ WITH ] (FORMAT format, DELIMITER 'delimiter', HEADER [boolean], ...)
 ```
 
 ## Importing Data (FROM)
+
 ```sql
 -- Basic CSV import
 \copy table_name FROM '/path/to/file.csv' WITH (FORMAT csv, DELIMITER ',', HEADER true)
@@ -28,6 +29,7 @@ cssclasses: ""
 ```
 
 ## Exporting Data (TO)
+
 ```sql
 -- Export to CSV
 \copy table_name TO '/path/to/output.csv' WITH (FORMAT csv, DELIMITER ',', HEADER true)
@@ -40,6 +42,7 @@ cssclasses: ""
 ```
 
 ## Common Options
+
 | Option         | Description                                      | Example                          |
 |----------------|--------------------------------------------------|----------------------------------|
 | FORMAT         | File format (csv, text, binary)                 | `FORMAT csv`                     |
@@ -48,11 +51,12 @@ cssclasses: ""
 | QUOTE         | Quoting character                              | `QUOTE '"'`                      |
 | NULL          | How NULL values are represented                | `NULL '\N'`                      |
 | ENCODING      | File encoding                                  | `ENCODING 'LATIN1'`              |
-| FORCE_QUOTE   | Force quoting for specified columns            | `FORCE_QUOTE (col1, col2)`       |
+| FORCE\_QUOTE   | Force quoting for specified columns            | `FORCE_QUOTE (col1, col2)`       |
 
 ## Practical Examples
 
 1. **Import from CSV with custom settings**
+
 ```sql
 \copy customers FROM '/data/import.csv' WITH (
     FORMAT csv,
@@ -64,6 +68,7 @@ cssclasses: ""
 ```
 
 2. **Export query results to TSV**
+
 ```sql
 \copy (SELECT id, name FROM active_users WHERE signup_date > '2023-01-01') 
 TO '/reports/active_users.tsv' 
@@ -71,6 +76,7 @@ WITH (FORMAT csv, DELIMITER '\t', HEADER true)
 ```
 
 3. **Import with error handling**
+
 ```sql
 \copy products FROM '/tmp/products.csv' WITH CSV HEADER;
 -- If errors occur:
@@ -79,6 +85,7 @@ WITH (FORMAT csv, DELIMITER '\t', HEADER true)
 ```
 
 ## Important Notes
+
 - `\copy` is a psql client command (not SQL), so it uses local file paths and your user's permissions
 - For large files, consider using `COPY` (server-side) instead for better performance
 - Use absolute paths to avoid permission issues

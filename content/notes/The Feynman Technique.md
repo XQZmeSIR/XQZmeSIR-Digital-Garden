@@ -4,10 +4,9 @@ created: 2024-04-13
 modified: 2026-03-13T19:06:02.606+03:00
 tags:
   - 🌳
-cssclasses: ""
 ---
 
-up:: [[mocs/Learning MOC]]
+up:: [[Learning MOC]]
 
 > “Any intelligent fool can make things bigger, more complex, and more violent. It takes a touch of genius—and a lot of courage—to move in the opposite direction.” E.F. Schumachernormal
 
@@ -17,4 +16,3 @@ There are four steps to the Feynman Learning Technique, based on the method Rich
 2. Identify gaps in your explanation. Go back to the source material to better understand it.
 3. Organize and simplify.
 4. Transmit (optional).
-

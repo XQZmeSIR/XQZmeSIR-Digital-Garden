@@ -2,11 +2,10 @@
 publish: true
 created: 2023-07-24 20:43
 modified: 2026-03-13T19:06:02.582+03:00
-cssclasses: ""
 ---
 
 up::
-tags:: #🌳 
+tags:: #🌳
 
 **Assimilation and Accommodation** are the two complementary processes of Adaptation described by [Piaget](http://web.archive.org/web/20160305015224/http:/www.learningandteaching.info/learning/piaget.htm), through which we  internalize the outside world information. They are inseparable and exist in a dialectical relationship.
 
@@ -19,11 +18,12 @@ Any example of betrayal, of discovering a new fact that shatters previous belief
 The terms are also used to describe forms of knowledge in [[Kolb’s Experiential Learning Cycle]].
 
 ---
+
 ### Reference:
+
 - [Assimilation and Accommodation](http://web.archive.org/web/20160305015224/http://www.learningandteaching.info/learning/assimacc.htm#What's)
 
 ### Related:
-- [[notes/New stuff is learned in a way to make use of existing stuff]]
+
+- [[New stuff is learned in a way to make use of existing stuff]]
 - [[Jean Piaget’s concept of the "Messianic stage"]]
-
-

@@ -4,7 +4,6 @@ created: 2024-09-15
 modified: 2026-03-13T18:53:40.787+03:00
 tags:
   - linux
-cssclasses: ""
 ---
 
 To determine the maximum RAM capacity of your system in a Linux terminal, you can use the following command:
@@ -23,15 +22,17 @@ sudo dmidecode -t memory | grep -i "maximum capacity"
 
 This will return the maximum RAM capacity directly.
 
-
 ```bash
 sudo dmidecode -t baseboard
 sudo dmidecode -t bios
 ```
 
 ---
+
 ### Reference:
+
 - ChatGPT-4o
 
 ### Related:
-- 
+
+-

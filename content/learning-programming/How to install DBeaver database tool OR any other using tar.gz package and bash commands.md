@@ -2,7 +2,6 @@
 publish: true
 created: 2024-09-17
 modified: 2026-03-13T18:53:40.782+03:00
-cssclasses: ""
 ---
 
 1. Download linux(tar.gz) package from [official website](https://dbeaver.io/download/)
@@ -13,16 +12,18 @@ cssclasses: ""
 6. `cd /usr/share/dbeaver-ce/`
 7. `sudo ln -s /usr/share/dbeaver-ce/dbeaver /usr/local/bin/dbeaver`
 8. `sudo cp /usr/share/dbeaver-ce/dbeaver-ce.desktop /usr/share/applications/`
-9. Done! After these steps you should be able to find and launch DBeaver from your application menu and use the `dbeaver` command in the terminal. 
+9. Done! After these steps you should be able to find and launch DBeaver from your application menu and use the `dbeaver` command in the terminal.
 
-
-The same steps also works for [[_inbox/Как настроить Zotero Integration plugin в Obsidian раз и навсегда\|Zotero]]
+The same steps also works for [[Как настроить Zotero Integration plugin в Obsidian раз и навсегда|Zotero]]
 
 ---
+
 ### Reference:
+
 - Me
 
 ### Related:
-- [[_inbox/Как настроить Zotero Integration plugin в Obsidian раз и навсегда]]
-- [[learning-programming/How to see the description of the system's hardware components in Linux - BIOS, RAM capacity, baseboard]]
-- [[learning-programming/MariaDB SQL set up and commands]]
+
+- [[Как настроить Zotero Integration plugin в Obsidian раз и навсегда]]
+- [[How to see the description of the system's hardware components in Linux - BIOS, RAM capacity, baseboard]]
+- [[MariaDB SQL set up and commands]]

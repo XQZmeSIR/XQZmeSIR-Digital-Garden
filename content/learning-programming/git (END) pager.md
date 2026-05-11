@@ -2,7 +2,6 @@
 publish: true
 created: 2026-03-07T02:30:13.854+03:00
 modified: 2026-03-13T18:53:40.836+03:00
-cssclasses: ""
 ---
 
 The behavior you are experiencing occurs because Git uses a pager to display the output of commands like `git branch` and `git log`. The default pager is typically `less`, which is why it appears as if the output is being shown in an editor like `nano`.
@@ -10,9 +9,11 @@ The behavior you are experiencing occurs because Git uses a pager to display the
 Here's how you can manage this behavior:
 
 ### Understanding `less`
+
 `less` is a pager program that allows you to scroll through large amounts of text one screen at a time. When Git's output is piped to `less`, you'll see `(END)` at the bottom of the screen when the output is finished.
 
 ### Exiting the Pager
+
 - Press `q` to quit the pager and return to the regular command prompt.
 
 ### Configuring Git to Use a Different Pager or Disable It
@@ -35,3 +36,4 @@ Here's how you can manage this behavior:
    If you prefer not to use a pager for any Git command, you can set the `core.pager` option to `cat`, which will output everything directly to the terminal:
    ```sh
    git config --global core.pager cat
+   ```

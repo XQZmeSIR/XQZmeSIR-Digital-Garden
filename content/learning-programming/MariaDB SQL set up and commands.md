@@ -2,7 +2,6 @@
 publish: true
 created: 2024-09-07
 modified: 2026-03-13T18:53:40.796+03:00
-cssclasses: ""
 ---
 
 ```zsh
@@ -26,10 +25,13 @@ use <yourdatabase>;
 ```
 
 ---
+
 ### Reference:
-- 
+
+-
 
 ### Related:
-- [[learning-programming/Databases]]
-- [[learning-programming/PostgreSQL Enable Disable]]
-- [[learning-programming/Какие базы данных бывают]]
+
+- [[Databases]]
+- [[PostgreSQL Enable Disable]]
+- [[Какие базы данных бывают]]

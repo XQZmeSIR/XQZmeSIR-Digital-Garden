@@ -1,8 +1,12 @@
 ---
 publish: true
+aliases:
+  - intention-behavior gap
+  - planning trap
+  - dopamine from planning
 draft: true
 created: 2026-04-13 16:11
-modified: 2026-04-13T16:23:48.941+03:00
+modified: 2026-04-20T15:03:55.829+03:00
 ---
 
 **GET DOPAMINE FROM EXECUTION, NOT PLANNING**
@@ -17,6 +21,7 @@ By establishing pace and progress first, you derive dopamine from execution, whi
 
 ### Reference:
 
+- [[Intention-Behavior_Gap_Explained@20260409_123614]]
 - Reel on Instagram
 
 ### Related:

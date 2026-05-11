@@ -4,7 +4,6 @@ created: 2024-09-07
 modified: 2026-03-13T18:53:40.805+03:00
 tags:
   - solution
-cssclasses: ""
 ---
 
 Apparently Amazon does this based on the User-Agent header, at which point it sets a cookie that following requests should send back. The following works:
@@ -20,8 +19,11 @@ Apparently Amazon does this based on the User-Agent header, at which point it se
 This created a session (for ease of re-use and for cookie persistence), and a copy of the Chrome user agent string. The request succeeds (returns a 200 response).
 
 ---
+
 ### Reference:
+
 - https://stackoverflow.com/a/44968120/24465070
 
 ### Related:
-- 
+
+-

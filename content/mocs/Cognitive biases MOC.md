@@ -3,18 +3,13 @@ publish: true
 created: 2026-03-07T02:30:13.856+03:00
 modified: 2026-03-13T18:53:00.360+03:00
 tags:
-  - "#"
-  - "\ud83d"
-  - "\uddfa"
-  - ️
-  - ""
-cssclasses: ""
+  - "#🗺️ "
 ---
 
 up:: [[Home]] <br>
-tags:: #🗺️ 
+tags:: #🗺️
 
-*« We are doomed to fall into cognitive biases. So what do we do? Be aware. Pay attention. »*
+_« We are doomed to fall into cognitive biases. So what do we do? Be aware. Pay attention. »_
 
 **Introduction:** All staff that is related to Cognitive biases, its influence on our behavior, and how to notice them.
 
@@ -33,7 +28,7 @@ tags:: #🗺️
 - [[Эффект Даннинга-Крюгера]]
 - [[Эгоцентрическое искажение]]
 - [[8 важных логических ошибок]]
-- [[notes/The Hidden cost of Rewards]]
+- [[The Hidden cost of Rewards]]
 - [[Фундаментальная ошибка атрибуции]]
 - [[A stability bias in human memory]]
 - [[Систематические ошибки]]

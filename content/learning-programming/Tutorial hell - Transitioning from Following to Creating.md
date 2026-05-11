@@ -2,25 +2,24 @@
 publish: true
 created: 2026-03-07T02:30:13.854+03:00
 modified: 2026-03-13T18:53:40.808+03:00
-cssclasses: ""
 ---
 
 What you’re describing is a common challenge faced by many learners transitioning from tutorials to building their own projects. It's often referred to as "tutorial hell," where you’ve followed step-by-step instructions enough times to understand the syntax and concepts, but when faced with a blank slate and no guidance, it’s hard to know how to start.
 
 ### The Problem: Transitioning from Following to Creating
 
-In tutorials, you’re often given a clear set of instructions and a predefined problem to solve. You don’t have to worry about **how** to structure your code or **what** the overall design should be; you just follow the steps. But when you try to build something from scratch, you suddenly have to think about the big picture: 
+In tutorials, you’re often given a clear set of instructions and a predefined problem to solve. You don’t have to worry about **how** to structure your code or **what** the overall design should be; you just follow the steps. But when you try to build something from scratch, you suddenly have to think about the big picture:
 
 - **What problem am I solving?**
 - **How do I break this problem into smaller, manageable pieces?**
 - **What will the structure of my program look like?**
 - **How do I decide which classes, functions, and modules to create?**
 
-This can be overwhelming because you’re now responsible for both *thinking* and *doing*, whereas in tutorials, you only had to focus on the doing part.
+This can be overwhelming because you’re now responsible for both _thinking_ and _doing_, whereas in tutorials, you only had to focus on the doing part.
 
 ### Why This Happens
 
-This issue arises because learning to code is a bit like learning to play music. In a tutorial, it’s like playing a song by following the sheet music—you know which notes to hit, but you’re not necessarily learning how to compose a new song yourself. When it’s time to write your own song (i.e., build a project), it’s not enough to know how to play the notes; you need to understand *why* those notes work together to create music.
+This issue arises because learning to code is a bit like learning to play music. In a tutorial, it’s like playing a song by following the sheet music—you know which notes to hit, but you’re not necessarily learning how to compose a new song yourself. When it’s time to write your own song (i.e., build a project), it’s not enough to know how to play the notes; you need to understand _why_ those notes work together to create music.
 
 ### The Key Skills You Need to Develop
 

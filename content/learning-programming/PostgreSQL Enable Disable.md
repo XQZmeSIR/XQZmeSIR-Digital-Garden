@@ -2,7 +2,6 @@
 publish: true
 created: 2026-03-07T02:30:13.853+03:00
 modified: 2026-03-13T18:53:40.799+03:00
-cssclasses: ""
 ---
 
 To disable PostgreSQL on Linux Manjaro so that it doesn't consume your RAM and CPU in the background, you can stop and disable the PostgreSQL service. Later, when you need it again, you can re-enable and start the service. Here's how you can do it:
@@ -36,6 +35,7 @@ When you need to use PostgreSQL again, you can enable and start the service:
 ### Verify Service Status
 
 You can check the status of the PostgreSQL service at any time using:
+
 ```bash
 sudo systemctl status postgresql
 ```

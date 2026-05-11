@@ -2,7 +2,6 @@
 publish: true
 created: 2026-03-07T02:30:13.857+03:00
 modified: 2026-03-13T19:06:02.586+03:00
-cssclasses: ""
 ---
 
 Beware: it’s too easy to let others’ schema and ideas dominate your own.
@@ -15,16 +14,17 @@ That’s bad from an epistemological perspective, but it’s particularly bad fo
 
 Per Kant:
 
-*Enlightenment is the human being’s emergence from his self-incurred minority. Minority* is inability to make use of one’s own understanding without direction from another. This minority is *self-incurred* when its cause lies not in lack of understanding but in lack of resolution and courage to use it without direction from another. *Sapere aude!* Dare to be wise!
+_Enlightenment is the human being’s emergence from his self-incurred minority. Minority_ is inability to make use of one’s own understanding without direction from another. This minority is _self-incurred_ when its cause lies not in lack of understanding but in lack of resolution and courage to use it without direction from another. _Sapere aude!_ Dare to be wise!
 
 One key antidote: [[Write about what you read]]
 
 ---
 
 #### References
-Kant, I. (1996). An answer to the question: What is enlightenment? In A. Wood (Ed.), & M. J. Gregor (Trans.), *Practical philosophy* (pp. 11–22). https://doi.org/10.1017/CBO9780511813306.005 (Original work published 1784)
 
-Schopenhauer, A. (2015). On reading and books. In C. Janaway (Ed.), & A. Del Caro (Trans.), *Parerga and Paralipomena: Short Philosophical Essays* (Vol. 2). https://doi.org/10.1017/CBO9781139016889 (Original work published 1851)
+Kant, I. (1996). An answer to the question: What is enlightenment? In A. Wood (Ed.), & M. J. Gregor (Trans.), _Practical philosophy_ (pp. 11–22). https://doi.org/10.1017/CBO9780511813306.005 (Original work published 1784)
+
+Schopenhauer, A. (2015). On reading and books. In C. Janaway (Ed.), & A. Del Caro (Trans.), _Parerga and Paralipomena: Short Philosophical Essays_ (Vol. 2). https://doi.org/10.1017/CBO9781139016889 (Original work published 1851)
 
 [Stop Relying on a Source and Have Faith in Your own Thoughts • Zettelkasten Method](https://zettelkasten.de/posts/dont-rely-on-source-have-faith-in-yourself/)
 

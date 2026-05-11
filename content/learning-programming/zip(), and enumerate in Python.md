@@ -2,7 +2,6 @@
 publish: true
 created: 2024-10-05
 modified: 2026-03-13T18:53:40.840+03:00
-cssclasses: ""
 ---
 
 ### 1. Context & Overview
@@ -82,10 +81,10 @@ Student 3: Charlie - Score: 78
 
 ### 4. Best Practices & Tips
 
-* **Use `zip()` when you need to iterate over multiple iterables of the same length in parallel.**
-* **Use `enumerate()` when you need both the index and the value of elements during iteration.**
-* **Be mindful of the lengths of iterables when using `zip()`.** If the iterables have different lengths, `zip()` will stop iterating when the shortest iterable is exhausted.
-* **Consider using `itertools.zip_longest()` if you need to iterate over iterables of different lengths and want to include all elements.**
+- **Use `zip()` when you need to iterate over multiple iterables of the same length in parallel.**
+- **Use `enumerate()` when you need both the index and the value of elements during iteration.**
+- **Be mindful of the lengths of iterables when using `zip()`.** If the iterables have different lengths, `zip()` will stop iterating when the shortest iterable is exhausted.
+- **Consider using `itertools.zip_longest()` if you need to iterate over iterables of different lengths and want to include all elements.**
 
 ### 5. Spaced Repetition Prompts
 
@@ -107,8 +106,11 @@ A: `zip()` stops iterating when the shortest iterable is exhausted.
 ```
 
 ---
+
 ### Reference:
+
 - Gemini 1.5 Pro Exp
 
 ### Related:
-- [[learning-programming/for loops and range() function]]
+
+- [[for loops and range() function]]

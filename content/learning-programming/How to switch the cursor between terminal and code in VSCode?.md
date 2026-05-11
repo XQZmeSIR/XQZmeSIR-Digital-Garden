@@ -5,7 +5,6 @@ modified: 2026-03-13T18:53:40.788+03:00
 tags:
   - shortcuts
   - vscode
-cssclasses: ""
 ---
 
 Generally VS Code uses ctrl+j to open Terminal so I created a keybinding to switch with ctrl+k combination, like below at keybindings.json:
@@ -22,10 +21,12 @@ Generally VS Code uses ctrl+j to open Terminal so I created a keybinding to swit
 }
 ```
 
-
 ---
+
 ### Reference:
+
 - https://superuser.com/questions/1270103/how-to-switch-the-cursor-between-terminal-and-code-in-vscode
 
 ### Related:
-- 
+
+-

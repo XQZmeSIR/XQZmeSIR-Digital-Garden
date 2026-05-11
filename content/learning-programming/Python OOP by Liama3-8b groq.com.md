@@ -2,7 +2,6 @@
 publish: true
 created: 2026-03-07T02:30:13.854+03:00
 modified: 2026-03-13T18:53:40.804+03:00
-cssclasses: ""
 ---
 
 Object-Oriented Programming (OOP) can be a bit overwhelming at first, but don't worry, I'm here to help you understand the core principles in a simple way.
@@ -48,17 +47,17 @@ my_cat.sound()  # Output: The cat meows.
 
 **Breakdown:**
 
-* We define a class `Animal` with an `__init__` method that initializes the object with a `name` attribute.
-* We define two classes `Dog` and `Cat` that inherit from `Animal` using the `(Animal)` syntax.
-* Each object has its own `sound` method, which overrides the `sound` method in the `Animal` class.
-* We create two objects, `my_dog` and `my_cat`, and call their respective `sound` methods.
+- We define a class `Animal` with an `__init__` method that initializes the object with a `name` attribute.
+- We define two classes `Dog` and `Cat` that inherit from `Animal` using the `(Animal)` syntax.
+- Each object has its own `sound` method, which overrides the `sound` method in the `Animal` class.
+- We create two objects, `my_dog` and `my_cat`, and call their respective `sound` methods.
 
 **Key Takeaways:**
 
-* A class is a blueprint that defines the properties and behaviors of an object.
-* Objects are instances of classes, which have their own attributes and methods.
-* Inheritance allows you to create a hierarchy of classes, where a child class inherits the properties and behaviors of a parent class.
-* Polymorphism allows objects to take on multiple forms, such as method overriding or method overloading.
-* Encapsulation hides the internal implementation details of an object from the outside world, while exposing only the necessary information through public methods.
+- A class is a blueprint that defines the properties and behaviors of an object.
+- Objects are instances of classes, which have their own attributes and methods.
+- Inheritance allows you to create a hierarchy of classes, where a child class inherits the properties and behaviors of a parent class.
+- Polymorphism allows objects to take on multiple forms, such as method overriding or method overloading.
+- Encapsulation hides the internal implementation details of an object from the outside world, while exposing only the necessary information through public methods.
 
 I hope this helps you understand the core principles of Object-Oriented Programming in Python!

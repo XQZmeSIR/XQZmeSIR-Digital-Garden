@@ -2,7 +2,6 @@
 publish: true
 created: 2024-10-05
 modified: 2026-03-13T18:53:40.833+03:00
-cssclasses: ""
 ---
 
 ### 1. Context & Overview
@@ -13,10 +12,10 @@ The **`range()` function** is often used in conjunction with for loops to genera
 
 Understanding for loops and the `range()` function is crucial for any Python programmer as they are essential for tasks like:
 
-* Processing lists and other collections of data
-* Repeating actions a specific number of times
-* Iterating through strings character by character
-* Implementing algorithms that involve sequential operations
+- Processing lists and other collections of data
+- Repeating actions a specific number of times
+- Iterating through strings character by character
+- Implementing algorithms that involve sequential operations
 
 ### 2. Detailed Explanation
 
@@ -29,10 +28,10 @@ for element in sequence:
     # Code to be executed for each element
 ```
 
-* **`for` and `in` are keywords.**
-* **`element`** is a variable that takes on the value of each element in the sequence during each iteration. You can choose any valid variable name here.
-* **`sequence`** is the iterable object you want to loop through.
-* The indented block of code following the `for` statement is the **loop body**. This code is executed for each element in the sequence.
+- **`for` and `in` are keywords.**
+- **`element`** is a variable that takes on the value of each element in the sequence during each iteration. You can choose any valid variable name here.
+- **`sequence`** is the iterable object you want to loop through.
+- The indented block of code following the `for` statement is the **loop body**. This code is executed for each element in the sequence.
 
 **The `range()` Function:**
 
@@ -112,10 +111,10 @@ for i in range(1, 10, 2):  # Iterates from 1 to 9, incrementing by 2
 
 ### 4. Best Practices & Tips
 
-* **Use meaningful variable names for the loop variable.** Instead of `i`, use a name that reflects the element you're iterating over (e.g., `fruit`, `number`).
-* **Avoid modifying the sequence you're iterating over within the loop body.** This can lead to unexpected behavior. If you need to modify the sequence, create a copy first.
-* **Use `enumerate()` when you need both the index and the value of each element.**
-* **Consider using list comprehensions for concise list creation and manipulation within loops.**
+- **Use meaningful variable names for the loop variable.** Instead of `i`, use a name that reflects the element you're iterating over (e.g., `fruit`, `number`).
+- **Avoid modifying the sequence you're iterating over within the loop body.** This can lead to unexpected behavior. If you need to modify the sequence, create a copy first.
+- **Use `enumerate()` when you need both the index and the value of each element.**
+- **Consider using list comprehensions for concise list creation and manipulation within loops.**
 
 ### 5. Spaced Repetition Prompts
 
@@ -137,8 +136,11 @@ A: `enumerate()`
 ```
 
 ---
+
 ### Reference:
+
 - Gemini 1.5 Pro Exp
 
 ### Related:
-- [[learning-programming/zip(), and enumerate in Python]]
+
+- [[zip(), and enumerate in Python]]

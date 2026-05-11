@@ -3,20 +3,16 @@ publish: true
 created: 2026-03-07T02:30:13.856+03:00
 modified: 2026-03-13T18:53:00.394+03:00
 tags:
-  - "#"
-  - "\ud83d"
-  - "\uddfa"
-  - ️
-  - ""
-cssclasses: ""
+  - "#🗺️ "
 ---
 
 up:: [[Home]] <br>
-tags:: #🗺️ 
+tags:: #🗺️
 
 Zettelkasten, MOCs, Obsidian, RoamResearch, PARA, Evergreen notes… Those are all a small percentage of the myriads of PKM-related concepts, methodologies, approaches etc. Explore if you will.
 
-#### Zettelkasten 
+#### Zettelkasten
+
 - [[Andy’s Notes/Zettelkasten]]
 - [[Zettelkasten A1]]
 - [[Zettelkasten Hub]]
@@ -31,16 +27,18 @@ Zettelkasten, MOCs, Obsidian, RoamResearch, PARA, Evergreen notes… Those are a
 - [[Алгоритм чтения научных статей и работы с информацией]]
 
 #### Evergreens
-- [[mocs/Evergreen notes MOC]]
-- [[evergreens/1.1 Definition of Evergreen Notes]]
-- [[evergreens/1.1a1 The principles of evergreen note-writing include]]
-- [[evergreens/1.1a Evergreen notes are]]
-- [[evergreens/1.1a2 Taxonomy of notes]]
-- [[evergreens/1.1b Good names for Evergreen Titles are]]
-- [[evergreens/1.1c On the process of making evergreen notes]]
+
+- [[Evergreen notes MOC]]
+- [[1.1 Definition of Evergreen Notes]]
+- [[1.1a1 The principles of evergreen note-writing include]]
+- [[1.1a Evergreen notes are]]
+- [[1.1a2 Taxonomy of notes]]
+- [[1.1b Good names for Evergreen Titles are]]
+- [[1.1c On the process of making evergreen notes]]
 - [[Andy Matuschak’s writing workflow]]
 
 #### Note-making
+
 - [[The NoMa Method]]
 - [[Пять шагов NoMa]]
 - [[Это интересно...]]
@@ -51,9 +49,10 @@ Zettelkasten, MOCs, Obsidian, RoamResearch, PARA, Evergreen notes… Those are a
 - [[NoMa на практике]]
 
 #### Structure
+
 - [[Воркшоп "Структура базы знаний"]]
 - [[On the process of making MOCs]]
 - [[Maps Of Content]]
 - [[On using Tags]]
-- [[evergreens/1.1a2 Taxonomy of notes]]
+- [[1.1a2 Taxonomy of notes]]
 - [[KJ - метод]]
