@@ -2,7 +2,7 @@
 publish: true
 draft: true
 created: 2026-05-25 13:20
-modified: 2026-05-25T13:24:37.800+03:00
+modified: 2026-05-25T22:25:10.484+03:00
 ---
 
 ## Подробная инструкция: от нуля до работающей связки
@@ -134,15 +134,6 @@ systemctl --user start obsidian-hybrid-search.service
 
 Конфигурационный файл Hermes Agent: **`~/.hermes/config.yaml`**.
 
-Если файла нет, создай его:
-
-```bash
-mkdir -p ~/.hermes
-touch ~/.hermes/config.yaml
-```
-
-Открой этот файл в любом редакторе: `nano ~/.hermes/config.yaml`.
-
 #### 4.2 Что именно добавить в config.yaml
 
 Для HTTP-MCP сервера используется секция `mcp_servers`. Добавь следующий блок:
@@ -173,10 +164,6 @@ mcp_servers:
 ```yaml
 # ~/.hermes/config.yaml
 
-# Базовая конфигурация агента
-model: "claude-sonnet-4-20250514"  # или твоя модель
-max_tokens: 4096
-
 # MCP-серверы
 mcp_servers:
   obsidian-hybrid-search:
@@ -189,7 +176,7 @@ mcp_servers:
 
 #### 4.4 Как убедиться, что MCP загружен
 
-После редактирования конфигурации перезапусти Hermes:
+После редактирования конфигурации перезапусти Hermes и начни новую сессию:
 
 ```bash
 hermes chat
