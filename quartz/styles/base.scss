@@ -557,19 +557,15 @@ figure[data-rehype-pretty-code-figure] {
 }
 
 pre {
-  /* This creates a solid background that is 90% your page background
-     and 10% your border color. It creates a perfect "inset" look. */
   background-color: color-mix(in srgb, var(--light), var(--lightgray) 40%);
-
+  box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.2);
   font-family: var(--codeFont);
   padding: 0 0.5rem;
   border-radius: 6px;
-  overflow-x: auto;
+  overflow-x: hidden; // ← изменено с 'auto' на 'hidden'
   border: 1px solid var(--lightgray);
   position: relative;
-
-  /* Adds a very subtle inner shadow to make it look "carved" into the page */
-  box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.2);
+  white-space: normal; // ← добавляем
 
   &:has(> code.mermaid) {
     border: none;
@@ -583,9 +579,10 @@ pre {
     font-size: 0.85rem;
     counter-reset: line;
     counter-increment: line 0;
-    display: grid;
+    display: block; // ← grid → block
     padding: 0.5rem 0;
-    overflow-x: auto;
+    overflow-x: visible; // ← auto → visible
+    white-space: pre-wrap; // ← добавляем
 
     & [data-highlighted-chars] {
       background-color: var(--highlight);
@@ -602,7 +599,6 @@ pre {
         border-left: 3px solid var(--secondary);
       }
 
-      /* Standardizing line number colors for dark mode */
       &::before {
         content: counter(line);
         counter-increment: line;
@@ -610,7 +606,7 @@ pre {
         margin-right: 1rem;
         display: inline-block;
         text-align: right;
-        color: var(--gray); /* Changed from rgba for better visibility */
+        color: var(--gray);
         opacity: 0.5;
       }
     }
