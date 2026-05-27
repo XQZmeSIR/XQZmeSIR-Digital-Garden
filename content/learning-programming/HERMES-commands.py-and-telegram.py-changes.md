@@ -2,7 +2,7 @@
 publish: true
 draft: true
 created: 2026-05-27 23:09
-modified: 2026-05-27T23:33:06.470+03:00
+modified: 2026-05-27T23:33:27.554+03:00
 ---
 
 What I changed in these files to increase the number of shown commands in telegram and the way they ordered meaning that they show my custom skills above with higher priority, and they do not get omitted because of Telegram API limit of only 100 possible shown commands.
@@ -95,7 +95,7 @@ def _collect_gateway_skill_entries(...)
 ```
 
 That'll be all. Now, the `hermes gateway restart`  must be done for telegram to pick up changes.
-After that, the amount of shown /shash commands will be 100, and YOUR list of skills that you put in `_TELEGRAM_SKILL_PRIORITY` will be right after first few menu commands.
+After that, the amount of shown ash commands will be 100, and YOUR list of skills that you put in `_TELEGRAM_SKILL_PRIORITY` will be right after first few menu commands.
 
 Done.
 
