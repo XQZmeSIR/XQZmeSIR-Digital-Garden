@@ -2,7 +2,7 @@
 publish: true
 draft: true
 created: 2026-05-27 23:09
-modified: 2026-05-27T23:09:34.918+03:00
+modified: 2026-05-27T23:33:06.470+03:00
 ---
 
 What I changed in these files to increase the number of shown commands in telegram and the way they ordered meaning that they show my custom skills above with higher priority, and they do not get omitted because of Telegram API limit of only 100 possible shown commands.
@@ -22,7 +22,7 @@ grep -n "MAX_COMMANDS_PER_SCOPE" ~/.hermes/hermes-agent/gateway/platforms/telegr
 
 ```
 
-### `.hermes/hermes-agent/hermes_cli/commands.py`
+### `.hermes/hermes-agent/gateway/platforms/telegram.py`
 
 ```python
 # line 120
@@ -32,7 +32,7 @@ MAX_COMMANDS_PER_SCOPE = 100  # ----MY CHANGE-----
 
 ---
 
-### `.hermes/hermes-agent/gateway/platforms/telegram.py`
+### `.hermes/hermes-agent/hermes_cli/commands.py`
 
 ```python
 # after _TELEGRAM_MENU_PRIORITY constanta put this one:
@@ -69,9 +69,9 @@ and put AFTER THAT variable or in other words - line of code this:
 
 ```python
 def _collect_gateway_skill_entries(...)
-	....
-	some code
-	....
+	###
+	# some code
+	###
 	
 	skill_triples = _clamp_command_names(skill_triples, reserved_names)
 	# BELOW this skill_triples put the followinng
