@@ -2,7 +2,7 @@
 publish: true
 title: What I’m Doing Now
 created: 2024-05-25
-modified: 2026-05-10T00:25:02.657+03:00
+modified: 2026-06-04T23:11:03.106+03:00
 ---
 
 Here’s what I’m working on /now, in no particular order:
@@ -33,6 +33,7 @@ Here’s what I’m working on /now, in no particular order:
   - Джедайские техники – Дорофеев
   - Meditations – Marcus Aurelius
   - Критическое мышление – Том Чатфилд
+  - Psyco cybernetics
 
 ### Digital Gardening
 

@@ -2,7 +2,7 @@
 publish: true
 draft: true
 created: 2026-06-13 16:16
-modified: 2026-06-13T16:25:53.080+03:00
+modified: 2026-06-15T11:28:19.491+03:00
 ---
 
 ## 📝 Полная пошаговая инструкция `~/Downloads/superset-native`
@@ -24,7 +24,7 @@ brew install uv
 
 ```bash
 uv venv --python 3.11 venv
-source superset-venv/bin/activate
+source venv/bin/activate
 ```
 
 ### 4. Устанавливаем Apache Superset + явно `cachetools` (на всякий случай)
@@ -72,7 +72,7 @@ WTF_CSRF_ENABLED = False
 EOF
 ```
 
-### 7. Создаём скрипт запуска `start.sh` (с учётом `superset-venv`)
+### 7. Создаём скрипт запуска `start.sh` (с учётом `venv`)
 
 ```bash
 cat > start.sh << 'EOF'
@@ -146,7 +146,7 @@ python3 -c "import secrets; print(secrets.token_urlsafe(32))"
 ```bash
 cd ~/Downloads/superset-native
 deactivate                 # выйти из окружения
-rm -rf .venv data superset_config.py start.sh
+rm -rf venv data superset_config.py start.sh
 # По желанию: rm -rf ~/Downloads/superset-native
 ```
 
@@ -173,7 +173,7 @@ rm -rf .venv data superset_config.py start.sh
 
 ```bash
 cat > .gitignore << EOF
-.venv/
+venv/
 data/*.db
 start.sh
 __pycache__/
