@@ -2,7 +2,7 @@
 publish: true
 draft: true
 created: 2026-04-28 17:48
-modified: 2026-05-11T15:05:29.441+03:00
+modified: 2026-06-26T10:34:13.434+03:00
 ---
 
 ```zsh
@@ -11,6 +11,8 @@ cd dir
 uv init / uv venv
 uv add jupyterlab pandas numpy matplotlib seaborn
 uv run jupyter lab
+
+uvx jupyter lab  # downloads + runs in one go (like pipx, but for uv)
 
 # ---------
 marimo edit [file] # Starts the Marimo editor in your browser. Use --watch to auto-update when the file changes.

@@ -2,7 +2,7 @@
 publish: true
 title: What I’m Doing Now
 created: 2024-05-25
-modified: 2026-06-04T23:11:03.106+03:00
+modified: 2026-06-24T09:05:40.271+03:00
 ---
 
 Here’s what I’m working on /now, in no particular order:
@@ -24,8 +24,8 @@ Here’s what I’m working on /now, in no particular order:
 - ==Reading now==
   - Мужские правила - Марк Мэнсон.
   - Статистика и котики. Савельев
-  - Downey, Allen B. Think Stats: Exploratory Data Analysis. 3rd edition. Sebastopo, CA: O’Reilly, 2025.
-  - Siegel Andrew F. Practical Business Statistics, 7th edition, 2016.
+  - Downey, Allen B. **Think Stats**: Exploratory Data Analysis. 3rd edition. Sebastopo, CA: O’Reilly, 2025.
+  - Siegel Andrew F. **Practical Business Statistics**, 7th edition, 2016.
   - Bruce, Peter, Andrew Bruce, and Peter Gedeck. “Practical Statistics for Data Scientists,”
 - ==Queue==
   - Black Swan - Nassim Taleb
