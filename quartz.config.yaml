@@ -290,7 +290,8 @@ plugins:
       subdir: plugin
     enabled: true
     order: 50
-    options: {}
+    options:
+      theme: oxygen
 layout:
   groups:
     toolbar:
