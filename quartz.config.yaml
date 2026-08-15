@@ -26,29 +26,19 @@ configuration:
         gray: "#b8b8b8"
         darkgray: "#4e4e4e"
         dark: "#2b2b2b"
-        # secondary: "#284b63"
         secondary: "#f05a7f"
         tertiary: "#2b2b2b"
-        highlight: "rgba(143, 159, 169, 0.15)"
+        highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#fff23688"
       darkMode:
-        # Rolled-back black theme variant for reference:
-        # light: "#0a0a0a"
-        # lightgray: "#232323"
-        # gray: "#9a9a9a"
-        # darkgray: "#d6d6d6"
-        # dark: "#fafafa"
-        # secondary: "#fafafa"
-        # tertiary: "#d6d6d6"
-        # highlight: "rgba(250, 250, 250, 0.08)"
-        light: "#1d2433" # Dark background
-        lightgray: "#2f3b54" # UI elements
-        gray: "#a2aabc" # Text color
-        darkgray: "#d7dce2" # Highlighted text
-        dark: "#d7dce2" # Light text
-        secondary: "#5ccfe6" # Cyan accent
-        tertiary: "#c3a6ff" # Purple/lavender accent
-        highlight: "rgba(92, 207, 230, 0.15)" # Cyan highlight
+        light: "#1d2433"
+        lightgray: "#2f3b54"
+        gray: "#a2aabc"
+        darkgray: "#d7dce2"
+        dark: "#d7dce2"
+        secondary: "#5ccfe6"
+        tertiary: "#c3a6ff"
+        highlight: rgba(92, 207, 230, 0.15)
         textHighlight: "#b3aa0288"
 plugins:
   - source: "@quartz-community/created-modified-date"
@@ -283,6 +273,17 @@ plugins:
       darkMode: auto
       exportPadding: 20
     order: 50
+  - source: github:quartz-community/stacked-pages
+    enabled: true
+    options:
+      maxTabs: 8
+      mobileBreakpoint: 800
+      showSpines: true
+      animateTransitions: true
+    order: 50
+    layout:
+      position: afterBody
+      priority: 50
 layout:
   groups:
     toolbar:

@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "plugins": {
+    "stacked-pages": {
+      "source": "github:quartz-community/stacked-pages",
+      "resolved": "https://github.com/quartz-community/stacked-pages.git",
+      "commit": "50a21ed522b59ca067b6db02cfb040f576f093a3",
+      "installedAt": "2026-08-15T21:05:15.193Z"
+    }
+  }
+}
