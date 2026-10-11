@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2024-09-17
-modified: 2026-03-13T18:53:40.782+03:00
+modified: 2026-09-13T08:17:37.703Z
 ---
 
 1. Download linux(tar.gz) package from [official website](https://dbeaver.io/download/)

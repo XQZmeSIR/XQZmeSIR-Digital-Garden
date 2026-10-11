@@ -2,7 +2,7 @@
 publish: true
 draft: true
 created: 2026-05-25 13:20
-modified: 2026-05-25T22:25:10.484+03:00
+modified: 2026-09-13T08:17:37.707Z
 ---
 
 ## Подробная инструкция: от нуля до работающей связки
@@ -259,12 +259,12 @@ Hermes сам выбирает подходящий режим в зависим
 
 Пройди по каждому пункту, чтобы убедиться, что всё работает:
 
-- `obsidian-hybrid-search` установлен глобально (`which obsidian-hybrid-search`)
-- `OBSIDIAN_VAULT_PATH` установлен и указывает на LLM-WIKI
-- Сервер запущен и отвечает на `curl http://127.0.0.1:3939/mcp`
-- В `~/.hermes/config.yaml` добавлена секция `mcp_servers` с `obsidian-hybrid-search`
-- Hermes перезапущен и видит MCP-инструменты (`hermes chat` → спросить про инструменты)
-- Cron-job для реиндексации настроен (опционально, для автоматического обновления)
+- [ ] `obsidian-hybrid-search` установлен глобально (`which obsidian-hybrid-search`)
+- [ ] `OBSIDIAN_VAULT_PATH` установлен и указывает на LLM-WIKI
+- [ ] Сервер запущен и отвечает на `curl http://127.0.0.1:3939/mcp`
+- [ ] В `~/.hermes/config.yaml` добавлена секция `mcp_servers` с `obsidian-hybrid-search`
+- [ ] Hermes перезапущен и видит MCP-инструменты (`hermes chat` → спросить про инструменты)
+- [ ] Cron-job для реиндексации настроен (опционально, для автоматического обновления)
 
 ## 4. Что дальше: углубление архитектуры
 

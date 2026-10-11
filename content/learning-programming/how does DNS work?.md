@@ -1,7 +1,7 @@
 ---
 publish: true
-created: 2026-03-07T02:30:13.854+03:00
-modified: 2026-03-13T18:53:40.837+03:00
+created: 2026-09-13T08:17:37.705Z
+modified: 2026-09-13T08:17:37.706Z
 ---
 
 When you enter a domain name into your web browser, your computer sends a DNS query to a DNS server, which returns the corresponding IP address. Your computer then uses that IP address to connect to the website or other resource you’ve requested.

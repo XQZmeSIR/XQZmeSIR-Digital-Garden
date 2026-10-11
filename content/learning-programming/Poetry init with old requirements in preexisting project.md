@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2024-10-13
-modified: 2026-03-13T18:53:40.798+03:00
+modified: 2026-09-13T08:17:37.704Z
 tags:
   - poetry
 ---

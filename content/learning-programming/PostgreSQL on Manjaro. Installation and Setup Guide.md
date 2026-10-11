@@ -1,7 +1,7 @@
 ---
 publish: true
-created: 2026-03-07T02:30:13.853+03:00
-modified: 2026-03-13T18:53:40.802+03:00
+created: 2026-09-13T08:17:37.704Z
+modified: 2026-09-13T08:17:37.704Z
 ---
 
 Here’s a detailed guide on how to download, set up, and use PostgreSQL on Linux Manjaro, structured for use as a concise and practical cheatsheet.

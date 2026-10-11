@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2026-03-14 00:06
-modified: 2026-03-20T22:18:07.450+03:00
+modified: 2026-09-13T08:17:37.717Z
 ---
 
 You are a product of your collective yesterdays. Becoming happens quietly through ordinary intake choices every day — attention metabolizes books, conversations, and media into habits of thought and response. Identity compounds invisibly over time.

@@ -2,7 +2,7 @@
 publish: true
 draft: true
 created: 2026-04-05 19:25
-modified: 2026-04-05T19:30:42.603+03:00
+modified: 2026-09-13T08:17:37.705Z
 tags:
   - postgresql
   - sql

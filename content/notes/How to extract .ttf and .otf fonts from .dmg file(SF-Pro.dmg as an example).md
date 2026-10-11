@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2025-03-24
-modified: 2026-03-13T19:06:02.590+03:00
+modified: 2026-09-13T08:17:37.715Z
 tags:
   - fonts
   - linux

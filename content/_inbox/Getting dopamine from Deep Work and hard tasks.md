@@ -5,7 +5,7 @@ aliases:
   - dopamine from deep work
 draft: true
 created: 2026-05-08 18:39
-modified: 2026-05-11T15:06:06.171+03:00
+modified: 2026-09-13T08:17:37.651Z
 ---
 
 # The Anatomy of High-Leverage Resistance

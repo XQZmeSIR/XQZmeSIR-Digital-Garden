@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2026-04-05 19:33
-modified: 2026-04-05T20:42:39.051+03:00
+modified: 2026-09-13T08:17:37.708Z
 tags:
   - ETL
   - postgresql

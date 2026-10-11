@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2024-10-02
-modified: 2026-03-13T18:53:40.780+03:00
+modified: 2026-09-13T08:17:37.703Z
 ---
 
 ## Keep Your Code Cutting-Edge: How to Update VS Code on Manjaro Linux

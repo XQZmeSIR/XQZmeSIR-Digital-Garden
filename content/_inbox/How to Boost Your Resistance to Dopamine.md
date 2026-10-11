@@ -2,8 +2,8 @@
 publish: true
 title: How to Boost Your Resistance to Dopamine
 description: An addiction psychiatrist explains the neuroscience of dopamine resistance, covering the nucleus accumbens, amygdala, prefrontal cortex, hippocampus, and opioid circuits. Practical strategies to regain control over motivation and reduce addiction to high-dopamine activities.
-created: 2026-05-03T14:35:16.366+03:00
-modified: 2026-05-11T15:09:32.873+03:00
+created: 2026-09-13T08:17:37.651Z
+modified: 2026-09-13T08:17:37.651Z
 ---
 
 # 🧠 How to Boost Your Resistance to Dopamine

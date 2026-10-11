@@ -2,7 +2,7 @@
 publish: true
 draft: true
 created: 2026-07-26 11:34
-modified: 2026-07-26T12:20:27.173+03:00
+modified: 2026-09-13T08:17:37.646Z
 ---
 
 Understood. Below is the note. Copy it whole into a new file — I'd name it `Naval Ravikant — Complete Compendium`, and demote [[Naval ravikant lessons]] to a child of it.
@@ -492,11 +492,11 @@ Track the right column only. Everything in the left column can be maximized whil
 
 Before starting anything, it must pass all five:
 
-- Does it produce an **asset** (owned, durable) rather than a **wage** (rented, terminal)?
-- Is the **marginal cost of the 1000th customer ≈ 0**?
-- Does it sit inside my **circle of competence** and my genuine curiosity?
-- Is it a **repeated game** with people I'd choose for 20 years?
-- Would a **10x failure** leave me intact (no ruin, no broken trust, no destroyed health)?
+- [ ] Does it produce an **asset** (owned, durable) rather than a **wage** (rented, terminal)?
+- [ ] Is the **marginal cost of the 1000th customer ≈ 0**?
+- [ ] Does it sit inside my **circle of competence** and my genuine curiosity?
+- [ ] Is it a **repeated game** with people I'd choose for 20 years?
+- [ ] Would a **10x failure** leave me intact (no ruin, no broken trust, no destroyed health)?
 
 Any "no" = redesign or don't start.
 

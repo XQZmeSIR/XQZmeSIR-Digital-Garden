@@ -2,7 +2,7 @@
 publish: true
 draft: true
 created: 2026-05-27 23:09
-modified: 2026-05-27T23:33:27.554+03:00
+modified: 2026-09-13T08:17:37.703Z
 ---
 
 What I changed in these files to increase the number of shown commands in telegram and the way they ordered meaning that they show my custom skills above with higher priority, and they do not get omitted because of Telegram API limit of only 100 possible shown commands.

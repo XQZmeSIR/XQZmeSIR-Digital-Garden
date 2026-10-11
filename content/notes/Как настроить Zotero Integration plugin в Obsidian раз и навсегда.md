@@ -1,8 +1,8 @@
 ---
 publish: true
 permalink: zotero-obsidian-integration
-created: 2026-03-12T13:07:07.215+03:00
-modified: 2026-03-13T18:45:30.625+03:00
+created: 2026-09-13T08:17:37.717Z
+modified: 2026-09-13T08:17:37.717Z
 ---
 
 > **Written by Amid the Chaos on June 30, 2023.**\

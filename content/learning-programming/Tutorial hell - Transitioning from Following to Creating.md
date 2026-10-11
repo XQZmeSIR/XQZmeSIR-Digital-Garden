@@ -1,7 +1,7 @@
 ---
 publish: true
-created: 2026-03-07T02:30:13.854+03:00
-modified: 2026-03-13T18:53:40.808+03:00
+created: 2026-09-13T08:17:37.705Z
+modified: 2026-09-13T08:17:37.705Z
 ---
 
 What you’re describing is a common challenge faced by many learners transitioning from tutorials to building their own projects. It's often referred to as "tutorial hell," where you’ve followed step-by-step instructions enough times to understand the syntax and concepts, but when faced with a blank slate and no guidance, it’s hard to know how to start.

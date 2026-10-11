@@ -1,7 +1,7 @@
 ---
 publish: true
-created: 2026-03-07T02:30:13.854+03:00
-modified: 2026-03-13T18:53:40.836+03:00
+created: 2026-09-13T08:17:37.705Z
+modified: 2026-09-13T08:17:37.705Z
 ---
 
 The behavior you are experiencing occurs because Git uses a pager to display the output of commands like `git branch` and `git log`. The default pager is typically `less`, which is why it appears as if the output is being shown in an editor like `nano`.

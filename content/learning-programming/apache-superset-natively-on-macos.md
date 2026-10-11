@@ -2,7 +2,7 @@
 publish: true
 draft: true
 created: 2026-06-13 16:16
-modified: 2026-06-15T11:28:19.491+03:00
+modified: 2026-09-13T08:17:37.705Z
 ---
 
 ## 📝 Полная пошаговая инструкция `~/Downloads/superset-native`

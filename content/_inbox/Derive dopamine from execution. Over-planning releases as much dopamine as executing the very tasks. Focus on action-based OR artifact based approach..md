@@ -6,7 +6,7 @@ aliases:
   - dopamine from planning
 draft: true
 created: 2026-04-13 16:11
-modified: 2026-04-20T15:03:55.829+03:00
+modified: 2026-09-13T08:17:37.650Z
 ---
 
 **GET DOPAMINE FROM EXECUTION, NOT PLANNING**

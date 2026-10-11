@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2025-04-27
-modified: 2026-03-13T18:53:40.760+03:00
+modified: 2026-09-13T08:17:37.702Z
 ---
 
 These are [[How to Write Good Spaced Repetition Prompts A Guide to Creating Understanding|memory prompts]] that I wrote while studying the topic.  cd

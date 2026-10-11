@@ -1,8 +1,8 @@
 ---
 publish: true
 title: XQZmeSIR 🌱
-created: 2026-03-12T13:07:01.286+03:00
-modified: 2026-03-17T15:46:23.836+03:00
+created: 2026-09-13T08:17:37.702Z
+modified: 2026-09-13T08:17:37.702Z
 ---
 
 This is a tiny place for my [[1.1 Definition of Evergreen Notes|Evergreen notes]]

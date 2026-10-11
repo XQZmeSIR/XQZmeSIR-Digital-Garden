@@ -1,7 +1,7 @@
 ---
 publish: true
-created: 2026-03-07T02:30:13.852+03:00
-modified: 2026-04-05T19:12:59.976+03:00
+created: 2026-09-13T08:17:37.703Z
+modified: 2026-09-13T08:17:37.703Z
 ---
 
 # ,PostgreSQL `\copy` Cheatsheet

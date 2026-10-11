@@ -2,7 +2,7 @@
 publish: true
 draft: true
 created: 2026-05-25 20:23
-modified: 2026-05-25T21:37:32.059+03:00
+modified: 2026-09-13T08:17:37.662Z
 ---
 
 # Почему интеграция Obsidian Hybrid Search с Hermes — это game changer

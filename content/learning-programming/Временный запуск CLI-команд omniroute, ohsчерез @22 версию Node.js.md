@@ -2,7 +2,7 @@
 publish: true
 draft: true
 created: 2026-05-25 12:38
-modified: 2026-05-25T12:56:05.828+03:00
+modified: 2026-09-13T08:17:37.706Z
 ---
 
 ## Проблема

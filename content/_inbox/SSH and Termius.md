@@ -2,7 +2,7 @@
 publish: true
 draft: true
 created: 2026-05-25 19:13
-modified: 2026-05-25T19:34:38.963+03:00
+modified: 2026-09-13T08:17:37.655Z
 tags:
   - ssh
   - macos

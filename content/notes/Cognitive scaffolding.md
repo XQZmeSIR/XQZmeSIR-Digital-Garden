@@ -1,7 +1,7 @@
 ---
 publish: true
-created: 2026-03-07T02:30:13.857+03:00
-modified: 2026-03-13T19:06:02.580+03:00
+created: 2026-09-13T08:17:37.715Z
+modified: 2026-09-13T08:17:37.715Z
 ---
 
 When thinking or doing something new and challenging, one common failure mode is that the smallest possible incremental step might still be too difficult to conceive. In these instances, it’s best to adopt an environment which will erect _cognitive scaffolding_ to support part of the cognitive load, enabling that next step. As the actor builds capacity, the scaffolding can be gradually removed, either by him or by his environment. The temporary nature of the scaffolding makes this a subset of mechanisms for augmenting cognition.

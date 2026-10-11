@@ -2,7 +2,7 @@
 publish: true
 draft: true
 created: 2026-08-15 13:02
-modified: 2026-08-15T10:04:22.077Z
+modified: 2026-09-13T08:17:37.707Z
 tags:
   - macos
   - macbook
